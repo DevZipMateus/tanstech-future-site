@@ -73,6 +73,12 @@ const Footer = () => {
                 Soluções
               </a>
               <a
+                href="#products"
+                className="block text-primary-foreground/80 hover:text-primary-foreground transition-colors"
+              >
+                Produtos
+              </a>
+              <a
                 href="#contact"
                 className="block text-primary-foreground/80 hover:text-primary-foreground transition-colors"
               >

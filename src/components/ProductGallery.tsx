@@ -12,70 +12,70 @@ const ProductGallery = () => {
       name: "Scooter Elétrica S3",
       image: "/assets/products/scooter-s3.jpg",
       model: "Autopropelido MOD:S3 1000W",
-      price: "R$ 9.990,00"
+      price: "R$ 6.997,00"
     },
     {
       id: 2,
       name: "Scooter Elétrica S6",
       image: "/assets/products/scooter-s6.jpg",
       model: "Autopropelido MODELO S6 1000W",
-      price: "R$ 9.990,00"
+      price: "R$ 6.997,00"
     },
     {
       id: 3,
       name: "Scooter Elétrica JET",
       image: "/assets/products/scooter-jet.jpg",
       model: "Autopropelido MODELO JET 1000W",
-      price: "R$ 10.499,00"
+      price: "R$ 7.597,00"
     },
     {
       id: 4,
       name: "Scooter Elétrica A3",
       image: "/assets/products/scooter-a3.jpg",
       model: "Autopropelido MODELO A3 1000W",
-      price: "R$ 9.990,00"
+      price: "R$ 6.997,00"
     },
     {
       id: 5,
       name: "Scooter Elétrica Modelo",
       image: "/assets/products/scooter-modelo.jpg",
       model: "Autopropelido 1000W",
-      price: "R$ 10.499,00"
+      price: "R$ 7.597,00"
     },
     {
       id: 6,
       name: "Scooter Elétrica SOL",
       image: "/assets/products/scooter-sol.jpg",
       model: "Autopropelido SOL 1000W",
-      price: "R$ 8.297,00"
+      price: "R$ 5.697,00"
     },
     {
       id: 7,
       name: "WD 1000W",
       image: "/assets/products/wd-1000w.jpg",
       model: "Bateria 20AH Removível",
-      price: "R$ 7.997,00"
+      price: "R$ 5.497,00"
     },
     {
       id: 8,
       name: "Super 800",
       image: "/assets/products/super-800.jpg",
       model: "800W Bateria 20AH",
-      price: "R$ 7.490,00"
+      price: "R$ 4.997,00"
     },
     {
       id: 9,
       name: "Triciclo Family",
       image: "/assets/products/triciclo-family.jpg",
       model: "600W/1000W",
-      price: "R$ 11.490,00"
+      price: "R$ 8.497,00"
     },
     {
       id: 10,
       name: "Chopper 4000W",
       image: "/assets/products/chopper-4000w.jpg",
       model: "Veículo Ciclomotor 4000W",
-      price: "R$ 16.997,00"
+      price: "R$ 11.497,00"
     }
   ];
 

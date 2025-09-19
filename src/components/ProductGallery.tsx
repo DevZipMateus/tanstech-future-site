@@ -76,6 +76,27 @@ const ProductGallery = () => {
       image: "/assets/products/chopper-4000w.jpg",
       model: "Veículo Ciclomotor 4000W",
       price: "R$ 11.497,00"
+    },
+    {
+      id: 11,
+      name: "Bike V8 PRO",
+      image: "/assets/products/bike-v8-pro.jpg",
+      model: "Motor 1000W Bateria 48V 15Ah",
+      price: "R$ 6.697,00"
+    },
+    {
+      id: 12,
+      name: "Patinete 350W",
+      image: "/assets/products/patinete-350w.jpg",
+      model: "Bateria 36V 7.8Ah - Autonomia 30km",
+      price: "R$ 1.897,00"
+    },
+    {
+      id: 13,
+      name: "Autopropelido 1000W",
+      image: "/assets/products/autopropelido-1000w.jpg",
+      model: "Bateria 20AH Removível - NFC",
+      price: "R$ 7.597,00"
     }
   ];
 

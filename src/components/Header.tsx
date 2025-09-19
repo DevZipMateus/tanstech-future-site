@@ -76,26 +76,28 @@ const Header = () => {
         {isOpen && (
           <div className="lg:hidden absolute top-full left-0 right-0 bg-background/95 backdrop-blur-md border-b border-border/50 shadow-lg">
             <nav className="container-padding py-4">
-              <div className="flex flex-col space-y-4">
+              <div className="flex flex-col space-y-3">
                 {navItems.map((item) => (
                   <a
                     key={item.name}
                     href={item.href}
-                    className="text-foreground hover:text-primary transition-colors duration-200 font-medium py-2"
+                    className="text-foreground hover:text-primary transition-colors duration-200 font-medium py-3 px-2 rounded-lg hover:bg-primary/5 text-base"
                     onClick={() => setIsOpen(false)}
                   >
                     {item.name}
                   </a>
                 ))}
-                <Button
-                  asChild
-                  variant="outline"
-                  className="border-primary/30 text-primary hover:bg-primary hover:text-primary-foreground mt-4 w-fit"
-                >
-                  <a href="https://wa.me/5547999916947" target="_blank" rel="noopener noreferrer">
-                    Fale conosco
-                  </a>
-                </Button>
+                <div className="pt-2 mt-2 border-t border-border/30">
+                  <Button
+                    asChild
+                    variant="outline"
+                    className="border-primary/30 text-primary hover:bg-primary hover:text-primary-foreground w-full"
+                  >
+                    <a href="https://wa.me/5547999916947" target="_blank" rel="noopener noreferrer">
+                      Fale conosco
+                    </a>
+                  </Button>
+                </div>
               </div>
             </nav>
           </div>

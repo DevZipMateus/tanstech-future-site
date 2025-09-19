@@ -103,28 +103,28 @@ const ProductGallery = () => {
   return (
     <section id="products" className="section-padding bg-background">
       <div className="container mx-auto container-padding">
-        <div className="max-w-6xl mx-auto">
+        <div className="max-w-7xl mx-auto">
           {/* Section Header */}
-          <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl font-orbitron font-bold text-foreground mb-6">
+          <div className="text-center mb-12 sm:mb-16">
+            <h2 className="text-3xl sm:text-4xl md:text-5xl font-orbitron font-bold text-foreground mb-4 sm:mb-6 px-4">
               Nossos produtos
             </h2>
-            <p className="text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
+            <p className="text-base sm:text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed px-4">
               Conheça nossa linha completa de scooters, bikes e triciclos elétricos. 
               Produtos modernos com tecnologia de ponta e qualidade garantida.
             </p>
           </div>
 
           {/* Product Grid */}
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 sm:gap-6 lg:gap-8 mb-12 sm:mb-16">
             {products.map((product, index) => (
               <Card
                 key={product.id}
-                className="p-4 card-hover bg-card border-border/50 animate-fade-in cursor-pointer"
+                className="p-3 sm:p-4 card-hover bg-card border-border/50 animate-fade-in cursor-pointer"
                 style={{ animationDelay: `${index * 0.1}s` }}
                 onClick={() => setSelectedImage(product.image)}
               >
-                <div className="aspect-square overflow-hidden rounded-lg mb-4 bg-gradient-subtle">
+                <div className="aspect-square overflow-hidden rounded-lg mb-3 sm:mb-4 bg-gradient-subtle">
                   <img
                     src={product.image}
                     alt={product.name}
@@ -133,13 +133,13 @@ const ProductGallery = () => {
                 </div>
                 
                 <div className="text-center">
-                  <h3 className="text-lg font-orbitron font-semibold text-foreground mb-2">
+                  <h3 className="text-base sm:text-lg font-orbitron font-semibold text-foreground mb-2 line-clamp-2">
                     {product.name}
                   </h3>
-                  <p className="text-sm text-muted-foreground mb-3">
+                  <p className="text-xs sm:text-sm text-muted-foreground mb-3 line-clamp-2">
                     {product.model}
                   </p>
-                  <p className="text-primary font-bold text-lg mb-4">
+                  <p className="text-primary font-bold text-base sm:text-lg mb-3 sm:mb-4">
                     {product.price}
                   </p>
                   
@@ -147,11 +147,11 @@ const ProductGallery = () => {
                     asChild
                     variant="outline"
                     size="sm"
-                    className="w-full border-primary/30 text-primary hover:bg-primary hover:text-primary-foreground"
+                    className="w-full border-primary/30 text-primary hover:bg-primary hover:text-primary-foreground text-xs sm:text-sm"
                     onClick={(e) => e.stopPropagation()}
                   >
                     <a href="https://wa.me/5547999916947" target="_blank" rel="noopener noreferrer">
-                      <ExternalLink className="mr-2 w-4 h-4" />
+                      <ExternalLink className="mr-2 w-3 h-3 sm:w-4 sm:h-4" />
                       Solicitar orçamento
                     </a>
                   </Button>
@@ -161,11 +161,11 @@ const ProductGallery = () => {
           </div>
 
           {/* CTA Section */}
-          <div className="text-center bg-primary/5 rounded-2xl p-8 md:p-12 border border-primary/10">
-            <h3 className="text-2xl md:text-3xl font-orbitron font-bold text-foreground mb-4">
+          <div className="text-center bg-primary/5 rounded-2xl p-6 sm:p-8 md:p-12 border border-primary/10">
+            <h3 className="text-xl sm:text-2xl md:text-3xl font-orbitron font-bold text-foreground mb-4 px-4">
               Interessado em algum produto?
             </h3>
-            <p className="text-lg text-muted-foreground mb-8 max-w-2xl mx-auto">
+            <p className="text-base sm:text-lg text-muted-foreground mb-6 sm:mb-8 max-w-2xl mx-auto px-4">
               Entre em contato conosco para mais informações sobre especificações técnicas, 
               disponibilidade e condições especiais para revendedores.
             </p>
@@ -173,7 +173,7 @@ const ProductGallery = () => {
             <Button
               asChild
               size="lg"
-              className="bg-primary text-primary-foreground hover:bg-primary-glow shadow-electric text-lg px-8 py-6 h-auto"
+              className="bg-primary text-primary-foreground hover:bg-primary-glow shadow-electric text-sm sm:text-base lg:text-lg px-6 sm:px-8 py-4 sm:py-6 h-auto w-full sm:w-auto"
             >
               <a href="https://wa.me/5547999916947" target="_blank" rel="noopener noreferrer">
                 Ver catálogo completo
@@ -186,16 +186,16 @@ const ProductGallery = () => {
       {/* Modal para visualizar imagem ampliada */}
       {selectedImage && (
         <div
-          className="fixed inset-0 bg-black/80 z-50 flex items-center justify-center p-4"
+          className="fixed inset-0 bg-black/80 z-50 flex items-center justify-center p-2 sm:p-4"
           onClick={() => setSelectedImage(null)}
         >
-          <div className="relative max-w-4xl max-h-[90vh] bg-white rounded-lg overflow-hidden">
+          <div className="relative max-w-4xl w-full max-h-[90vh] bg-white rounded-lg overflow-hidden">
             <button
               onClick={() => setSelectedImage(null)}
-              className="absolute top-4 right-4 z-10 bg-black/50 text-white rounded-full p-2 hover:bg-black/70 transition-colors"
+              className="absolute top-2 sm:top-4 right-2 sm:right-4 z-10 bg-black/50 text-white rounded-full p-1.5 sm:p-2 hover:bg-black/70 transition-colors"
               aria-label="Fechar imagem"
             >
-              <X size={20} />
+              <X className="w-4 h-4 sm:w-5 sm:h-5" />
             </button>
             <img
               src={selectedImage}

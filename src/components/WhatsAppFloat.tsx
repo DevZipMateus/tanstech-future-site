@@ -10,7 +10,7 @@ const WhatsAppFloat = () => {
       aria-label="Contato via WhatsApp"
       title="Fale conosco no WhatsApp"
     >
-      <MessageCircle size={28} />
+      <MessageCircle className="w-6 h-6 sm:w-7 sm:h-7" />
     </a>
   );
 };

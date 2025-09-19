@@ -21,46 +21,46 @@ const Hero = () => {
       <div className="relative z-10 container mx-auto container-padding text-center">
         <div className="max-w-5xl mx-auto">
           {/* Main Heading - H1 as per SEO requirements */}
-          <h1 className="text-5xl md:text-7xl lg:text-8xl font-orbitron font-black text-white mb-6 animate-fade-in tracking-tight">
+          <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-orbitron font-black text-white mb-4 sm:mb-6 animate-fade-in tracking-tight px-2">
             Tanstech
           </h1>
 
           {/* Subheading - H2 as per SEO requirements */}
-          <h2 className="text-xl md:text-2xl lg:text-3xl text-white/90 mb-8 animate-fade-in font-inter font-medium leading-relaxed" style={{animationDelay: '0.2s'}}>
+          <h2 className="text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl text-white/90 mb-6 sm:mb-8 animate-fade-in font-inter font-medium leading-relaxed px-4" style={{animationDelay: '0.2s'}}>
             Revolucionando o futuro da mobilidade urbana com soluções elétricas inteligentes para empreendedores visionários
           </h2>
 
           {/* Slogan */}
-          <p className="text-lg md:text-xl text-white/80 mb-12 animate-fade-in font-orbitron" style={{animationDelay: '0.4s'}}>
+          <p className="text-sm sm:text-base md:text-lg lg:text-xl text-white/80 mb-8 sm:mb-12 animate-fade-in font-orbitron px-4" style={{animationDelay: '0.4s'}}>
             Tanstech, te aproximando do futuro.
           </p>
 
           {/* Key Features Icons */}
-          <div className="flex flex-wrap justify-center gap-6 mb-12 animate-fade-in" style={{animationDelay: '0.6s'}}>
-            <div className="flex items-center gap-2 bg-white/10 backdrop-blur-sm rounded-full px-4 py-2 text-white">
-              <Zap className="w-5 h-5 text-electric" />
-              <span className="text-sm font-medium">Mobilidade elétrica</span>
+          <div className="flex flex-wrap justify-center gap-3 sm:gap-4 md:gap-6 mb-8 sm:mb-12 animate-fade-in px-4" style={{animationDelay: '0.6s'}}>
+            <div className="flex items-center gap-2 bg-white/10 backdrop-blur-sm rounded-full px-3 sm:px-4 py-2 text-white">
+              <Zap className="w-4 h-4 sm:w-5 sm:h-5 text-electric" />
+              <span className="text-xs sm:text-sm font-medium">Mobilidade elétrica</span>
             </div>
-            <div className="flex items-center gap-2 bg-white/10 backdrop-blur-sm rounded-full px-4 py-2 text-white">
-              <Leaf className="w-5 h-5 text-electric" />
-              <span className="text-sm font-medium">Sustentável</span>
+            <div className="flex items-center gap-2 bg-white/10 backdrop-blur-sm rounded-full px-3 sm:px-4 py-2 text-white">
+              <Leaf className="w-4 h-4 sm:w-5 sm:h-5 text-electric" />
+              <span className="text-xs sm:text-sm font-medium">Sustentável</span>
             </div>
-            <div className="flex items-center gap-2 bg-white/10 backdrop-blur-sm rounded-full px-4 py-2 text-white">
-              <TrendingUp className="w-5 h-5 text-electric" />
-              <span className="text-sm font-medium">Inovação</span>
+            <div className="flex items-center gap-2 bg-white/10 backdrop-blur-sm rounded-full px-3 sm:px-4 py-2 text-white">
+              <TrendingUp className="w-4 h-4 sm:w-5 sm:h-5 text-electric" />
+              <span className="text-xs sm:text-sm font-medium">Inovação</span>
             </div>
           </div>
 
           {/* CTA Buttons */}
-          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center animate-fade-in" style={{animationDelay: '0.8s'}}>
+          <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center items-center animate-fade-in px-4" style={{animationDelay: '0.8s'}}>
             <Button
               asChild
               size="lg"
-              className="bg-primary text-primary-foreground hover:bg-primary-glow shadow-electric text-lg px-8 py-6 h-auto"
+              className="bg-primary text-primary-foreground hover:bg-primary-glow shadow-electric text-base sm:text-lg px-6 sm:px-8 py-4 sm:py-6 h-auto w-full sm:w-auto"
             >
               <a href="https://wa.me/5547999916947" target="_blank" rel="noopener noreferrer">
                 Começar agora
-                <ArrowRight className="ml-2 w-5 h-5" />
+                <ArrowRight className="ml-2 w-4 h-4 sm:w-5 sm:h-5" />
               </a>
             </Button>
             
@@ -68,7 +68,7 @@ const Hero = () => {
               asChild
               variant="outline"
               size="lg"
-              className="bg-white/15 text-white border-white/50 hover:bg-white/25 hover:border-white/70 backdrop-blur-sm text-lg px-8 py-6 h-auto"
+              className="bg-white/15 text-white border-white/50 hover:bg-white/25 hover:border-white/70 backdrop-blur-sm text-base sm:text-lg px-6 sm:px-8 py-4 sm:py-6 h-auto w-full sm:w-auto"
             >
               <a href="#about">
                 Saiba mais
@@ -77,18 +77,18 @@ const Hero = () => {
           </div>
 
           {/* Stats */}
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-16 animate-fade-in" style={{animationDelay: '1s'}}>
-            <div className="bg-white/5 backdrop-blur-sm rounded-xl p-6 border border-white/10">
-              <div className="text-3xl font-orbitron font-bold text-white mb-2">100%</div>
-              <div className="text-white/80">Suporte completo</div>
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 sm:gap-6 md:gap-8 mt-12 sm:mt-16 animate-fade-in px-4" style={{animationDelay: '1s'}}>
+            <div className="bg-white/5 backdrop-blur-sm rounded-xl p-4 sm:p-6 border border-white/10">
+              <div className="text-2xl sm:text-3xl font-orbitron font-bold text-white mb-2">100%</div>
+              <div className="text-sm sm:text-base text-white/80">Suporte completo</div>
             </div>
-            <div className="bg-white/5 backdrop-blur-sm rounded-xl p-6 border border-white/10">
-              <div className="text-3xl font-orbitron font-bold text-white mb-2">24/7</div>
-              <div className="text-white/80">Consultoria disponível</div>
+            <div className="bg-white/5 backdrop-blur-sm rounded-xl p-4 sm:p-6 border border-white/10">
+              <div className="text-2xl sm:text-3xl font-orbitron font-bold text-white mb-2">24/7</div>
+              <div className="text-sm sm:text-base text-white/80">Consultoria disponível</div>
             </div>
-            <div className="bg-white/5 backdrop-blur-sm rounded-xl p-6 border border-white/10">
-              <div className="text-3xl font-orbitron font-bold text-white mb-2">∞</div>
-              <div className="text-white/80">Possibilidades futuras</div>
+            <div className="bg-white/5 backdrop-blur-sm rounded-xl p-4 sm:p-6 border border-white/10">
+              <div className="text-2xl sm:text-3xl font-orbitron font-bold text-white mb-2">∞</div>
+              <div className="text-sm sm:text-base text-white/80">Possibilidades futuras</div>
             </div>
           </div>
         </div>

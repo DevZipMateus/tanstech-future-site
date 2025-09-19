@@ -4,8 +4,12 @@ import { ArrowRight, Zap, Leaf, TrendingUp } from "lucide-react";
 const Hero = () => {
   return (
     <section id="hero" className="relative min-h-screen flex items-center justify-center overflow-hidden">
-      {/* Background with gradient */}
-      <div className="absolute inset-0 bg-gradient-hero"></div>
+      {/* Background with image and overlay */}
+      <div 
+        className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+        style={{backgroundImage: 'url(/assets/hero-bg.jpg)'}}
+      ></div>
+      <div className="absolute inset-0 bg-gradient-to-r from-black/70 via-black/50 to-black/70"></div>
       
       {/* Floating elements for visual interest */}
       <div className="absolute inset-0 overflow-hidden">

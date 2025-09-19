@@ -143,17 +143,17 @@ All colors MUST be HSL. Based on brand green/teal with electric energy aesthetic
     scroll-behavior: smooth;
   }
 
-  /* Electric glow effect for special elements */
+  /* Electric glow effect for special elements - Always visible */
   .electric-glow {
     box-shadow: var(--shadow-glow);
     transition: var(--transition-smooth);
   }
 
   .electric-glow:hover {
-    box-shadow: 0 0 60px hsl(var(--electric) / 0.4);
+    box-shadow: var(--shadow-glow);
   }
 
-  /* WhatsApp button positioning */
+  /* WhatsApp button positioning - Always visible */
   .whatsapp-float {
     position: fixed;
     bottom: 2rem;
@@ -167,36 +167,51 @@ All colors MUST be HSL. Based on brand green/teal with electric energy aesthetic
     display: flex;
     align-items: center;
     justify-content: center;
-    box-shadow: 0 4px 20px rgba(37, 211, 102, 0.3);
+    box-shadow: 0 4px 20px rgba(37, 211, 102, 0.4);
     transition: var(--transition-smooth);
   }
 
   .whatsapp-float:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 6px 24px rgba(37, 211, 102, 0.4);
+    box-shadow: 0 6px 24px rgba(37, 211, 102, 0.5);
   }
 }
 
 @layer components {
-  /* Hero button variants */
+  /* Hero button variants - Always visible */
   .btn-hero {
-    @apply bg-white/10 text-white border border-white/30 hover:bg-white hover:text-primary hover:border-white backdrop-blur-sm;
+    @apply bg-white/20 text-white border border-white/40 backdrop-blur-sm;
     transition: var(--transition-smooth);
+  }
+
+  .btn-hero:hover {
+    @apply bg-white/30 border-white/60;
   }
 
   .btn-hero-primary {
-    @apply bg-primary text-primary-foreground hover:bg-primary-glow hover:shadow-electric;
+    @apply bg-primary text-primary-foreground shadow-electric;
     transition: var(--transition-smooth);
+  }
+
+  .btn-hero-primary:hover {
+    @apply bg-primary-glow;
   }
 
   .btn-electric {
-    @apply bg-electric text-electric-foreground hover:bg-electric/90 hover:shadow-glow;
+    @apply bg-electric text-electric-foreground shadow-glow;
     transition: var(--transition-smooth);
   }
 
-  /* Card hover effects */
+  .btn-electric:hover {
+    @apply bg-electric/90;
+  }
+
+  /* Card hover effects - Always visible */
   .card-hover {
-    @apply transition-all duration-300 hover:shadow-card hover:-translate-y-1;
+    @apply transition-all duration-300 shadow-card;
+  }
+
+  .card-hover:hover {
+    @apply shadow-card;
   }
 
   /* Section spacing */

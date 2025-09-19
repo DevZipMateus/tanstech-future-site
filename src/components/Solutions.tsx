@@ -67,7 +67,7 @@ const Solutions = () => {
                   className="p-8 card-hover bg-card border-border/50 text-center animate-fade-in"
                   style={{ animationDelay: `${index * 0.2}s` }}
                 >
-                  <div className="bg-primary/10 w-20 h-20 rounded-2xl flex items-center justify-center mx-auto mb-6 electric-glow">
+                  <div className="bg-primary/20 w-20 h-20 rounded-2xl flex items-center justify-center mx-auto mb-6 electric-glow">
                     <Icon className="w-10 h-10 text-primary" />
                   </div>
                   
@@ -122,7 +122,7 @@ const Solutions = () => {
                     className="text-center animate-slide-in"
                     style={{ animationDelay: `${index * 0.2}s` }}
                   >
-                    <div className="bg-primary/10 w-16 h-16 rounded-xl flex items-center justify-center mx-auto mb-4">
+                    <div className="bg-primary/20 w-16 h-16 rounded-xl flex items-center justify-center mx-auto mb-4">
                       <Icon className="w-8 h-8 text-primary" />
                     </div>
                     <h4 className="text-xl font-orbitron font-semibold text-foreground mb-3">

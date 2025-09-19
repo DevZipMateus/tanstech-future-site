@@ -64,11 +64,11 @@ const Services = () => {
               return (
                 <Card
                   key={index}
-                  className="p-8 card-hover bg-card border-border/50 animate-fade-in group"
+                  className="p-8 card-hover bg-card border-border/50 text-center animate-fade-in"
                   style={{ animationDelay: `${index * 0.1}s` }}
                 >
                   <div className="text-center">
-                    <div className="bg-primary/10 w-16 h-16 rounded-xl flex items-center justify-center mx-auto mb-6 group-hover:bg-primary/20 transition-colors">
+                    <div className="bg-primary/20 w-16 h-16 rounded-xl flex items-center justify-center mx-auto mb-6 transition-colors">
                       <Icon className="w-8 h-8 text-primary" />
                     </div>
                     

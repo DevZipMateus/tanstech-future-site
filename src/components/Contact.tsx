@@ -62,10 +62,10 @@ const Contact = () => {
               const Icon = contact.icon;
               const content = (
                 <Card
-                  className="p-6 card-hover bg-card border-border/50 text-center animate-fade-in cursor-pointer group"
+                  className="p-6 card-hover bg-card border-border/50 text-center animate-fade-in"
                   style={{ animationDelay: `${index * 0.1}s` }}
                 >
-                  <div className="bg-primary/10 w-14 h-14 rounded-xl flex items-center justify-center mx-auto mb-4 group-hover:bg-primary/20 transition-colors">
+                  <div className="bg-primary/20 w-14 h-14 rounded-xl flex items-center justify-center mx-auto mb-4 transition-colors">
                     <Icon className="w-7 h-7 text-primary" />
                   </div>
                   
@@ -77,7 +77,7 @@ const Contact = () => {
                     {contact.description}
                   </p>
                   
-                  <p className={`font-medium ${contact.link ? 'text-primary group-hover:text-primary-glow' : 'text-foreground'} transition-colors`}>
+                  <p className={`font-medium ${contact.link ? 'text-primary' : 'text-foreground'} transition-colors`}>
                     {contact.info}
                   </p>
                 </Card>

@@ -108,7 +108,7 @@ const Services = () => {
               <Button
                 asChild
                 size="lg"
-                className="bg-white/20 text-white border border-white/30 hover:bg-white hover:text-primary backdrop-blur-sm text-lg px-8 py-6 h-auto"
+                className="bg-white text-primary hover:bg-white/90 hover:text-primary border border-white backdrop-blur-sm text-lg px-8 py-6 h-auto"
               >
                 <a href="https://wa.me/5547999916947" target="_blank" rel="noopener noreferrer">
                   Fale conosco no WhatsApp
@@ -119,7 +119,7 @@ const Services = () => {
                 asChild
                 variant="outline"
                 size="lg"
-                className="border-white/30 text-white hover:bg-white/10 backdrop-blur-sm text-lg px-8 py-6 h-auto"
+                className="bg-transparent border-white/60 text-white hover:bg-white/15 hover:border-white/80 backdrop-blur-sm text-lg px-8 py-6 h-auto"
               >
                 <a href="#contact">
                   Ver contatos

@@ -52,7 +52,7 @@ const Hero = () => {
             <Button
               asChild
               size="lg"
-              className="btn-hero-primary electric-glow text-lg px-8 py-6 h-auto"
+              className="bg-primary text-primary-foreground hover:bg-primary-glow shadow-electric text-lg px-8 py-6 h-auto"
             >
               <a href="https://wa.me/5547999916947" target="_blank" rel="noopener noreferrer">
                 Começar agora
@@ -64,7 +64,7 @@ const Hero = () => {
               asChild
               variant="outline"
               size="lg"
-              className="btn-hero text-lg px-8 py-6 h-auto"
+              className="bg-white/15 text-white border-white/50 hover:bg-white/25 hover:border-white/70 backdrop-blur-sm text-lg px-8 py-6 h-auto"
             >
               <a href="#about">
                 Saiba mais

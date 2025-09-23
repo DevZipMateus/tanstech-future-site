@@ -57,6 +57,11 @@ const ProductGallery = () => {
     name: "AUTOPROPELIDO MODELO SV8",
     image: "/assets/products/bike-sv8.jpg",
     specifications: ["POTÊNCIA: 1000W", "CONTROLE VELOCIDADE 1,2,3", "BATERIA LÍTIO: 15AH", "PEDAL ASSISTIDO", "VELOC. LIMITE: 32KM/H", "AUTONOMIA: ATÉ 75KM (POR CARGA)", "IGNIÇÃO: NFC, ALARME", "CORES BANCO: PRETO, MARROM"]
+  }, {
+    id: 12,
+    name: "AUTOPROPELIDO MODELO SWD5",
+    image: "/assets/products/autopropelido-swd5.jpg",
+    specifications: ["POTÊNCIA: 1000W", "CONTROLE VELOCIDADE 1,2,3", "BATERIA LÍTIO: 20AH", "VELOC. LIMITE: 32KM/H", "AUTONOMIA: ATÉ 55KM (POR CARGA)", "CONEXÃO: BLUETOOTH", "IGNIÇÃO: NFC, ALARME", "PORTA OBJETOS", "CORES: BRANCO, CINZA, PRETO E VERMELHO"]
   }];
   return <section id="products" className="section-padding bg-background">
       <div className="container mx-auto container-padding">

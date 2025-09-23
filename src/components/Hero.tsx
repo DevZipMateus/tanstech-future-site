@@ -58,7 +58,7 @@ const Hero = () => {
               size="lg"
               className="bg-primary text-primary-foreground hover:bg-primary-glow shadow-electric text-base sm:text-lg px-6 sm:px-8 py-4 sm:py-6 h-auto w-full sm:w-auto"
             >
-              <a href="https://wa.me/5547999916947" target="_blank" rel="noopener noreferrer">
+              <a href="https://wa.me/5547997716947" target="_blank" rel="noopener noreferrer">
                 Começar agora
                 <ArrowRight className="ml-2 w-4 h-4 sm:w-5 sm:h-5" />
               </a>

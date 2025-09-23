@@ -93,7 +93,7 @@ const Solutions = () => {
                     variant="outline"
                     className="w-full border-primary/30 text-primary hover:bg-primary hover:text-primary-foreground"
                   >
-                    <a href="https://wa.me/5547999916947" target="_blank" rel="noopener noreferrer">
+                    <a href="https://wa.me/5547997716947" target="_blank" rel="noopener noreferrer">
                       Solicitar informações
                     </a>
                   </Button>
@@ -152,7 +152,7 @@ const Solutions = () => {
               size="lg"
               className="btn-electric electric-glow text-lg px-8 py-6 h-auto"
             >
-              <a href="https://wa.me/5547999916947" target="_blank" rel="noopener noreferrer">
+              <a href="https://wa.me/5547997716947" target="_blank" rel="noopener noreferrer">
                 Falar com especialista
               </a>
             </Button>

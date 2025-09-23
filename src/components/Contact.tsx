@@ -7,8 +7,8 @@ const Contact = () => {
     {
       icon: Phone,
       title: "Telefone / WhatsApp",
-      info: "(47) 99991-6947",
-      link: "https://wa.me/5547999916947",
+      info: "(47) 99771-6947",
+      link: "https://wa.me/5547997716947",
       description: "Fale conosco agora mesmo"
     },
     {
@@ -35,8 +35,8 @@ const Contact = () => {
     {
       icon: Instagram,
       title: "Instagram",
-      info: "@tanstech.scooters.eletricas",
-      link: "https://instagram.com/tanstech.scooters.eletricas",
+      info: "@tanstech.do.brazil",
+      link: "https://instagram.com/tanstech.do.brazil",
       description: "Siga-nos nas redes sociais"
     }
   ];
@@ -118,7 +118,7 @@ const Contact = () => {
                 size="lg"
                 className="bg-white text-primary hover:bg-white/90 hover:text-primary border border-white backdrop-blur-sm text-sm sm:text-base md:text-lg px-6 sm:px-8 py-4 sm:py-6 h-auto electric-glow w-full sm:w-auto"
               >
-                <a href="https://wa.me/5547999916947" target="_blank" rel="noopener noreferrer">
+                <a href="https://wa.me/5547997716947" target="_blank" rel="noopener noreferrer">
                   <MessageCircle className="mr-2 w-4 h-4 sm:w-5 sm:h-5" />
                   <span className="hidden sm:inline">Iniciar conversa no </span>WhatsApp
                 </a>

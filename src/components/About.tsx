@@ -86,29 +86,29 @@ const About = () => {
           {/* Company Info Grid */}
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6 px-4 sm:px-0">
             <Card className="p-4 sm:p-6 text-center bg-card/30 backdrop-blur-sm border-border/50">
-              <h4 className="text-sm sm:text-base font-orbitron font-bold text-primary mb-2">Responsável</h4>
-              <p className="text-xs sm:text-sm text-muted-foreground">Tanstech</p>
+              <h4 className="text-sm sm:text-base font-orbitron font-bold text-primary mb-2">Suporte</h4>
+              <p className="text-xs sm:text-sm text-muted-foreground">Suporte ao cliente 24hrs</p>
             </Card>
             
             <Card className="p-4 sm:p-6 text-center bg-card/30 backdrop-blur-sm border-border/50">
-              <h4 className="text-sm sm:text-base font-orbitron font-bold text-primary mb-2">Horário</h4>
+              <h4 className="text-sm sm:text-base font-orbitron font-bold text-primary mb-2">Horário Administrativo</h4>
               <p className="text-xs sm:text-sm text-muted-foreground">09:00 às 20:00</p>
             </Card>
             
             <Card className="p-4 sm:p-6 text-center bg-card/30 backdrop-blur-sm border-border/50">
-              <h4 className="text-sm sm:text-base font-orbitron font-bold text-primary mb-2">Localização</h4>
-              <p className="text-xs sm:text-sm text-muted-foreground">Rua 2480</p>
+              <h4 className="text-sm sm:text-base font-orbitron font-bold text-primary mb-2">Centro de Distribuição</h4>
+              <p className="text-xs sm:text-sm text-muted-foreground">Santa Catarina, São Paulo, Rio de Janeiro</p>
             </Card>
             
             <Card className="p-4 sm:p-6 text-center bg-card/30 backdrop-blur-sm border-border/50">
               <h4 className="text-sm sm:text-base font-orbitron font-bold text-primary mb-2">Instagram</h4>
               <a
-                href="https://instagram.com/tanstech.scooters.eletricas"
+                href="https://instagram.com/tanstech.do.brazil"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-xs sm:text-sm text-primary hover:text-primary-glow transition-colors break-all"
               >
-                @tanstech.scooters.eletricas
+                @tanstech.do.brazil
               </a>
             </Card>
           </div>

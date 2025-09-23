@@ -97,7 +97,7 @@ const Services = () => {
           {/* CTA Section */}
           <div className="bg-gradient-electric rounded-2xl p-6 sm:p-8 md:p-12 text-center mx-4 sm:mx-0">
             <h3 className="text-xl sm:text-2xl md:text-3xl font-orbitron font-bold text-white mb-4">
-              Pronto para começar sua jornada?
+              Pronto para sua virada de chave?
             </h3>
             <p className="text-white/90 text-sm sm:text-base md:text-lg mb-6 sm:mb-8 max-w-2xl mx-auto">
               Entre em contato conosco e descubra como podemos ajudar você a construir 
@@ -110,7 +110,7 @@ const Services = () => {
                 size="lg"
                 className="bg-white text-primary hover:bg-white/90 hover:text-primary border border-white backdrop-blur-sm text-sm sm:text-base md:text-lg px-6 sm:px-8 py-4 sm:py-6 h-auto"
               >
-                <a href="https://wa.me/5547999916947" target="_blank" rel="noopener noreferrer">
+                <a href="https://wa.me/5547997716947" target="_blank" rel="noopener noreferrer">
                   Fale conosco no WhatsApp
                 </a>
               </Button>

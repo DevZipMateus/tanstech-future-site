@@ -28,13 +28,13 @@ const Footer = () => {
             <h3 className="text-base sm:text-lg font-orbitron font-semibold mb-3 sm:mb-4">Contato</h3>
             <div className="space-y-2 sm:space-y-3">
               <a
-                href="https://wa.me/5547999916947"
+                href="https://wa.me/5547997716947"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center text-primary-foreground/80 hover:text-primary-foreground transition-colors text-sm sm:text-base"
               >
                 <Phone size={14} className="mr-2 sm:mr-3 flex-shrink-0" />
-                <span className="break-all">(47) 99991-6947</span>
+                <span className="break-all">(47) 99771-6947</span>
               </a>
               <a
                 href="mailto:alexandre.sales1808@gmail.com"
@@ -85,7 +85,7 @@ const Footer = () => {
                 Contato
               </a>
               <a
-                href="https://instagram.com/tanstech.scooters.eletricas"
+                href="https://instagram.com/tanstech.do.brazil"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center text-primary-foreground/80 hover:text-primary-foreground transition-colors text-sm sm:text-base"

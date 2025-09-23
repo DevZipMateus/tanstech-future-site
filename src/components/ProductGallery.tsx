@@ -90,7 +90,7 @@ const ProductGallery = () => {
           {/* Product Grid */}
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 sm:gap-6 lg:gap-8 mb-12 sm:mb-16">
             {products.map((product, index) => (
-              <Card key={product.id} className="group hover:shadow-lg transition-all duration-300 border border-border/50 hover:border-primary/30 bg-card/50 backdrop-blur-sm">
+              <Card key={product.id} className="group hover:shadow-lg transition-all duration-300 border border-border/50 hover:border-primary/30 bg-card/50 backdrop-blur-sm flex flex-col h-full">
                 <div className="relative overflow-hidden rounded-t-lg">
                   <img 
                     src={product.image} 
@@ -99,12 +99,12 @@ const ProductGallery = () => {
                   />
                 </div>
                 
-                <div className="p-4 sm:p-6">
+                <div className="p-4 sm:p-6 flex flex-col flex-grow">
                   <h3 className="font-orbitron font-bold text-lg sm:text-xl text-foreground mb-3 sm:mb-4">
                     {product.name}
                   </h3>
                   
-                  <div className="space-y-1.5 sm:space-y-2 mb-4 sm:mb-6">
+                  <div className="space-y-1.5 sm:space-y-2 mb-4 sm:mb-6 flex-grow">
                     {product.specifications.map((spec, specIndex) => (
                       <div key={specIndex} className="text-xs sm:text-sm text-muted-foreground font-medium">
                         {spec}
@@ -114,7 +114,7 @@ const ProductGallery = () => {
                   
                   <Button 
                     asChild 
-                    className="w-full bg-primary text-primary-foreground hover:bg-primary-glow shadow-electric text-xs sm:text-sm"
+                    className="w-full bg-primary text-primary-foreground hover:bg-primary-glow shadow-electric text-xs sm:text-sm mt-auto"
                   >
                     <a 
                       href="https://wa.me/5547997716947" 

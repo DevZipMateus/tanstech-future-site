@@ -15,8 +15,8 @@ const ProductGallery = () => {
   }, {
     id: 3,
     name: "AUTOPROPELIDO MODELO X13",
-    image: "/assets/products/autopropelido-x13.jpg",
-    specifications: ["POTÊNCIA: 1000W", "CONTROLE VELOCIDADE 1,2,3", "BATERIA LÍTIO: 20AH", "VELOC. LIMITE: 32KM/H", "AUTONOMIA: ATÉ 55KM (POR CARGA)", "CONEXÃO: BLUETOOTH", "IGNIÇÃO: NFC, ALARME", "CORES: BRANCO, INGLATERRA, VERMELHO, CINZA, PRETO, CARBONO, AZUL ETC"]
+    image: "/assets/products/autopropelido-x13-new.jpg",
+    specifications: ["POTÊNCIA: 1000W", "CONTROLE VELOCIDADE 1,2,3 E RÉ", "BATERIA LÍTIO: 24AH", "VELOC. LIMITE: 32KM/H", "AUTONOMIA: ATÉ 55KM (POR CARGA)", "CONEXÃO: BLUETOOTH", "IGNIÇÃO: NFC, ALARME", "CORES: BRANCO, INGLATERRA, VERMELHO, CINZA, PRETO, CARBONO, ETC"]
   }, {
     id: 4,
     name: "AUTOPROPELIDO MODELO SWD3",

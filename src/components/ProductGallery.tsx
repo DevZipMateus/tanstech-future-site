@@ -52,6 +52,11 @@ const ProductGallery = () => {
     name: "PATINETE ELÉTRICO 350W",
     image: "/assets/products/patinete-350w.jpg",
     specifications: ["POTÊNCIA: 350W", "BATERIA LÍTIO: 8AH", "VELOCIDADE MÁXIMA: 32KM/H", "AUTONOMIA: ATÉ 30KM", "PNEUS: CALIBRAGEM", "BOLSA (OPCIONAL)"]
+  }, {
+    id: 11,
+    name: "AUTOPROPELIDO MODELO SV8",
+    image: "/assets/products/bike-sv8.jpg",
+    specifications: ["POTÊNCIA: 1000W", "CONTROLE VELOCIDADE 1,2,3", "BATERIA LÍTIO: 15AH", "PEDAL ASSISTIDO", "VELOC. LIMITE: 32KM/H", "AUTONOMIA: ATÉ 75KM (POR CARGA)", "IGNIÇÃO: NFC, ALARME", "CORES BANCO: PRETO, MARROM"]
   }];
   return <section id="products" className="section-padding bg-background">
       <div className="container mx-auto container-padding">

@@ -47,6 +47,11 @@ const ProductGallery = () => {
     name: "CICLOMOTOR MODELO CHOPPER",
     image: "/assets/products/chopper-4000w.jpg",
     specifications: ["POTÊNCIA: 4.000W", "CONTROLE VELOCIDADE 1,2,3 (RÉ)", "BATERIA LÍTIO: 42AH", "VELOC. LIMITE: 90KM/H", "AUTONOMIA: ATÉ 75KM (POR CARGA)", "CONEXÃO: BLUETOOTH", "IGNIÇÃO: ALARME E CHAVES CODIFICADAS", "BANCO EXTRA (OPCIONAL)", "CORES: VERMELHO, AZUL E PRETO"]
+  }, {
+    id: 10,
+    name: "PATINETE ELÉTRICO 350W",
+    image: "/assets/products/patinete-350w.jpg",
+    specifications: ["POTÊNCIA: 350W", "BATERIA LÍTIO: 8AH", "VELOCIDADE MÁXIMA: 32KM/H", "AUTONOMIA: ATÉ 30KM", "PNEUS: CALIBRAGEM", "BOLSA (OPCIONAL)"]
   }];
   return <section id="products" className="section-padding bg-background">
       <div className="container mx-auto container-padding">

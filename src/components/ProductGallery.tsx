@@ -42,6 +42,11 @@ const ProductGallery = () => {
     name: "AUTOPROPELIDO MODELO SE6",
     image: "/assets/products/autopropelido-se6.jpg",
     specifications: ["POTÊNCIA: 1000W", "CONTROLE VELOCIDADE 1,2,3", "BATERIA LÍTIO: 20AH", "VELOC. LIMITE: 32KM/H", "AUTONOMIA: ATÉ 55KM (POR CARGA)", "CONEXÃO: BLUETOOTH", "IGNIÇÃO: NFC, ALARME", "LUZES EM LED", "PORTA OBJETOS", "BAU (ITEM DE SÉRIE)", "CORES: BRANCO, VERMELHO, CINZA, E PRETO"]
+  }, {
+    id: 9,
+    name: "CICLOMOTOR MODELO CHOPPER",
+    image: "/assets/products/chopper-4000w.jpg",
+    specifications: ["POTÊNCIA: 4.000W", "CONTROLE VELOCIDADE 1,2,3 (RÉ)", "BATERIA LÍTIO: 42AH", "VELOC. LIMITE: 90KM/H", "AUTONOMIA: ATÉ 75KM (POR CARGA)", "CONEXÃO: BLUETOOTH", "IGNIÇÃO: ALARME E CHAVES CODIFICADAS", "BANCO EXTRA (OPCIONAL)", "CORES: VERMELHO, AZUL E PRETO"]
   }];
   return <section id="products" className="section-padding bg-background">
       <div className="container mx-auto container-padding">

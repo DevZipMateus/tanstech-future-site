@@ -32,6 +32,11 @@ const ProductGallery = () => {
     name: "AUTOPROPELIDO MODELO SP JOY",
     image: "/assets/products/autopropelido-sp-joy.jpg",
     specifications: ["POTÊNCIA: 800W", "CONTROLE VELOCIDADE 1,2,3", "BATERIA LÍTIO: 20AH", "VELOC. LIMITE: 32KM/H", "AUTONOMIA: ATÉ 55KM (POR CARGA)", "CONEXÃO: BLUETOOTH", "IGNIÇÃO: NFC, ALARME", "PORTA OBJETOS", "CORES: BRANCO, VERMELHO, CINZA, PRETO"]
+  }, {
+    id: 7,
+    name: "AUTOPROPELIDO MODELO SP8",
+    image: "/assets/products/autopropelido-sp8.jpg",
+    specifications: ["POTÊNCIA: 1000W", "CONTROLE VELOCIDADE 1,2,3 (RÉ)", "BATERIA LÍTIO: 20AH", "VELOC. LIMITE: 32KM/H", "AUTONOMIA: ATÉ 55KM (POR CARGA)", "CONEXÃO: BLUETOOTH", "IGNIÇÃO: NFC, ALARME", "PORTA OBJETOS", "BAU (ITEM DE SÉRIE)", "CORES: BRANCO, VERMELHO, CINZA E PRETO"]
   }];
   return <section id="products" className="section-padding bg-background">
       <div className="container mx-auto container-padding">

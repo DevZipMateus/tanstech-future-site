@@ -5,7 +5,7 @@ const ProductGallery = () => {
   const products = [{
     id: 1,
     name: "AUTOPROPELIDO MODELO SD3",
-    image: "/assets/products/autopropelido-sd3.jpg",
+    image: "/assets/products/autopropelido-sd3-novo.jpg",
     specifications: ["POTÊNCIA: 1000W", "CONTROLE VELOCIDADE 1,2,3 (RÉ)", "BATERIA LÍTIO: 20AH", "VELOC. LIMITE: 32KM/H", "AUTONOMIA: ATÉ 55KM (POR CARGA)", "CONEXÃO: BLUETOOTH", "IGNIÇÃO: NFC, ALARME", "PORTA OBJETOS", "BAU (ITEM DE SÉRIE)", "CORES: BRANCO, VERMELHO, CINZA, ROXO E PRETO"]
   }];
   return <section id="products" className="section-padding bg-background">

@@ -47,18 +47,18 @@ const Solutions = () => {
       <div className="container mx-auto container-padding">
         <div className="max-w-6xl mx-auto">
           {/* Section Header */}
-          <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl font-orbitron font-bold text-foreground mb-6">
+          <div className="text-center mb-12 sm:mb-16">
+            <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-orbitron font-bold text-foreground mb-4 sm:mb-6 px-4">
               Nossas soluções
             </h2>
-            <p className="text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
+            <p className="text-base sm:text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed px-4">
               Oferecemos uma linha completa de produtos modernos para mobilidade elétrica, 
               pensados para atender diferentes necessidades e perfis de usuários urbanos.
             </p>
           </div>
 
           {/* Products Grid */}
-          <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 mb-20">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8 mb-16 sm:mb-20 px-4 sm:px-0">
             {products.map((product, index) => {
               const Icon = product.icon;
               return (
@@ -113,7 +113,7 @@ const Solutions = () => {
               </p>
             </div>
 
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 sm:gap-8 px-4 sm:px-0">
               {benefits.map((benefit, index) => {
                 const Icon = benefit.icon;
                 return (

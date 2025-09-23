@@ -269,4 +269,45 @@ All colors MUST be HSL. Based on brand green/teal with electric energy aesthetic
   .responsive-margin {
     @apply m-4 sm:m-6 lg:m-8;
   }
+
+  /* Additional responsive grid utilities */
+  .responsive-grid-2 {
+    @apply grid grid-cols-1 sm:grid-cols-2;
+  }
+
+  .responsive-grid-3 {
+    @apply grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3;
+  }
+
+  .responsive-grid-4 {
+    @apply grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4;
+  }
+
+  /* Text utilities */
+  .text-responsive {
+    @apply text-sm sm:text-base lg:text-lg;
+  }
+
+  .heading-responsive {
+    @apply text-xl sm:text-2xl lg:text-3xl;
+  }
+
+  .text-break-words {
+    word-break: break-word;
+    overflow-wrap: break-word;
+  }
+
+  /* Mobile-first responsive containers */
+  .mobile-container {
+    @apply px-4 mx-auto max-w-screen-xl;
+  }
+
+  /* Responsive flex utilities */
+  .responsive-flex {
+    @apply flex flex-col sm:flex-row;
+  }
+
+  .responsive-items-center {
+    @apply items-stretch sm:items-center;
+  }
 }

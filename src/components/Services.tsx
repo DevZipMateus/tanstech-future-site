@@ -47,44 +47,44 @@ const Services = () => {
       <div className="container mx-auto container-padding">
         <div className="max-w-6xl mx-auto">
           {/* Section Header */}
-          <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl font-orbitron font-bold text-foreground mb-6">
+          <div className="text-center mb-12 sm:mb-16">
+            <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-orbitron font-bold text-foreground mb-4 sm:mb-6 px-4">
               Nossos serviços
             </h2>
-            <p className="text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
+            <p className="text-base sm:text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed px-4">
               Para empreendedores interessados em investir no segmento de vendas de mobilidade elétrica, 
               nossa empresa prestará todo suporte necessário desde a abertura até a venda final.
             </p>
           </div>
 
           {/* Services Grid */}
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8 mb-12 sm:mb-16 px-4 sm:px-0">
             {services.map((service, index) => {
               const Icon = service.icon;
               return (
                 <Card
                   key={index}
-                  className="p-8 card-hover bg-card border-border/50 text-center animate-fade-in"
+                  className="p-6 sm:p-8 card-hover bg-card border-border/50 text-center animate-fade-in"
                   style={{ animationDelay: `${index * 0.1}s` }}
                 >
                   <div className="text-center">
-                    <div className="bg-primary/20 w-16 h-16 rounded-xl flex items-center justify-center mx-auto mb-6 transition-colors">
-                      <Icon className="w-8 h-8 text-primary" />
+                    <div className="bg-primary/20 w-14 h-14 sm:w-16 sm:h-16 rounded-xl flex items-center justify-center mx-auto mb-4 sm:mb-6 transition-colors">
+                      <Icon className="w-6 h-6 sm:w-8 sm:h-8 text-primary" />
                     </div>
                     
-                    <h3 className="text-xl font-orbitron font-semibold text-foreground mb-4">
+                    <h3 className="text-lg sm:text-xl font-orbitron font-semibold text-foreground mb-3 sm:mb-4">
                       {service.title}
                     </h3>
                     
-                    <p className="text-muted-foreground leading-relaxed mb-6">
+                    <p className="text-sm sm:text-base text-muted-foreground leading-relaxed mb-4 sm:mb-6">
                       {service.description}
                     </p>
 
-                    <ul className="text-left space-y-2 mb-6">
+                    <ul className="text-left space-y-2 mb-4 sm:mb-6">
                       {service.features.map((feature, idx) => (
-                        <li key={idx} className="flex items-center text-sm text-muted-foreground">
-                          <div className="w-1.5 h-1.5 bg-primary rounded-full mr-3 flex-shrink-0"></div>
-                          {feature}
+                        <li key={idx} className="flex items-start text-xs sm:text-sm text-muted-foreground">
+                          <div className="w-1.5 h-1.5 bg-primary rounded-full mr-3 flex-shrink-0 mt-2"></div>
+                          <span>{feature}</span>
                         </li>
                       ))}
                     </ul>
@@ -95,20 +95,20 @@ const Services = () => {
           </div>
 
           {/* CTA Section */}
-          <div className="bg-gradient-electric rounded-2xl p-8 md:p-12 text-center">
-            <h3 className="text-2xl md:text-3xl font-orbitron font-bold text-white mb-4">
+          <div className="bg-gradient-electric rounded-2xl p-6 sm:p-8 md:p-12 text-center mx-4 sm:mx-0">
+            <h3 className="text-xl sm:text-2xl md:text-3xl font-orbitron font-bold text-white mb-4">
               Pronto para começar sua jornada?
             </h3>
-            <p className="text-white/90 text-lg mb-8 max-w-2xl mx-auto">
+            <p className="text-white/90 text-sm sm:text-base md:text-lg mb-6 sm:mb-8 max-w-2xl mx-auto">
               Entre em contato conosco e descubra como podemos ajudar você a construir 
               um negócio de sucesso no mercado de mobilidade elétrica.
             </p>
             
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center">
               <Button
                 asChild
                 size="lg"
-                className="bg-white text-primary hover:bg-white/90 hover:text-primary border border-white backdrop-blur-sm text-lg px-8 py-6 h-auto"
+                className="bg-white text-primary hover:bg-white/90 hover:text-primary border border-white backdrop-blur-sm text-sm sm:text-base md:text-lg px-6 sm:px-8 py-4 sm:py-6 h-auto"
               >
                 <a href="https://wa.me/5547999916947" target="_blank" rel="noopener noreferrer">
                   Fale conosco no WhatsApp
@@ -119,7 +119,7 @@ const Services = () => {
                 asChild
                 variant="outline"
                 size="lg"
-                className="bg-transparent border-white/60 text-white hover:bg-white/15 hover:border-white/80 backdrop-blur-sm text-lg px-8 py-6 h-auto"
+                className="bg-transparent border-white/60 text-white hover:bg-white/15 hover:border-white/80 backdrop-blur-sm text-sm sm:text-base md:text-lg px-6 sm:px-8 py-4 sm:py-6 h-auto"
               >
                 <a href="#contact">
                   Ver contatos

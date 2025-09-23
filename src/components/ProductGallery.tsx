@@ -67,6 +67,11 @@ const ProductGallery = () => {
     name: "AUTOPROPELIDO MODELO FAMILY",
     image: "/assets/products/triciclo-family.jpg",
     specifications: ["POTÊNCIA: 1000W", "CARGA MÁXIMO: 250 KG", "CONTROLE VELOCIDADE 1,2,3 E RÉ", "BATERIA LÍTIO: 20AH", "VELOC. LIMITE: 32KM/H", "AUTONOMIA: ATÉ 65KM (POR CARGA)", "CONEXÃO: BLUETOOTH", "IGNIÇÃO: NFC, ALARME", "ASSENTOS: 1, 2 E 3 OPÇÕES", "CORES: BRANCO, VERMELHO, CINZA, PRETO ETC"]
+  }, {
+    id: 14,
+    name: "AUTOPROPELIDO MODELO SWD6",
+    image: "/assets/products/autopropelido-swd6.jpg",
+    specifications: ["POTÊNCIA: 1000W", "CONTROLE VELOCIDADE 1,2,3", "BATERIA LÍTIO: 20AH", "VELOC. LIMITE: 32KM/H", "AUTONOMIA: ATÉ 55KM (POR CARGA)", "CONEXÃO: BLUETOOTH", "IGNIÇÃO: NFC, ALARME", "CORES: BRANCO, VERMELHO, CINZA, PRETO"]
   }];
   return <section id="products" className="section-padding bg-background">
       <div className="container mx-auto container-padding">

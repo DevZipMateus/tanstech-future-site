@@ -17,6 +17,11 @@ const ProductGallery = () => {
     name: "AUTOPROPELIDO MODELO X13",
     image: "/assets/products/autopropelido-x13.jpg",
     specifications: ["POTÊNCIA: 1000W", "CONTROLE VELOCIDADE 1,2,3", "BATERIA LÍTIO: 20AH", "VELOC. LIMITE: 32KM/H", "AUTONOMIA: ATÉ 55KM (POR CARGA)", "CONEXÃO: BLUETOOTH", "IGNIÇÃO: NFC, ALARME", "CORES: BRANCO, INGLATERRA, VERMELHO, CINZA, PRETO, CARBONO, AZUL ETC"]
+  }, {
+    id: 4,
+    name: "AUTOPROPELIDO MODELO SWD3",
+    image: "/assets/products/autopropelido-swd3.jpg",
+    specifications: ["POTÊNCIA: 1000W", "CONTROLE VELOCIDADE 1,2,3", "BATERIA LÍTIO: 20AH", "VELOC. LIMITE: 32KM/H", "AUTONOMIA: ATÉ 55KM (POR CARGA)", "CONEXÃO: BLUETOOTH", "IGNIÇÃO: NFC, ALARME", "PORTA OBJETOS", "CORES: BRANCO, VERMELHO, CINZA E PRETO"]
   }];
   return <section id="products" className="section-padding bg-background">
       <div className="container mx-auto container-padding">

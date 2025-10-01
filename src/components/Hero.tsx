@@ -33,14 +33,16 @@ const Hero = () => {
           </h1>
 
           {/* Subheading - H2 as per SEO requirements */}
-          <h2 className="text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl text-white/90 mb-6 sm:mb-8 animate-fade-in font-inter font-medium leading-relaxed px-4 -mt-2 inline-block bg-white/10 backdrop-blur-sm rounded-xl py-3 sm:py-4" style={{animationDelay: '0.2s'}}>
-            Revolucionando o futuro da mobilidade urbana com soluções elétricas inteligentes para empreendedores visionários
-          </h2>
+          <div className="bg-white/10 backdrop-blur-sm rounded-xl p-4 sm:p-6 mb-8 sm:mb-12 animate-fade-in inline-block" style={{animationDelay: '0.2s'}}>
+            <h2 className="text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl text-white/90 mb-4 font-inter font-medium leading-relaxed">
+              Revolucionando o futuro da mobilidade urbana com soluções elétricas inteligentes para empreendedores visionários
+            </h2>
 
-          {/* Slogan */}
-          <p className="text-sm sm:text-base md:text-lg lg:text-xl text-white/80 mb-8 sm:mb-12 animate-fade-in font-orbitron px-4 inline-block bg-white/10 backdrop-blur-sm rounded-xl py-2 sm:py-3" style={{animationDelay: '0.4s'}}>
-            Tanstech, te aproximando do futuro.
-          </p>
+            {/* Slogan */}
+            <p className="text-sm sm:text-base md:text-lg lg:text-xl text-white/80 font-orbitron">
+              Tanstech, te aproximando do futuro.
+            </p>
+          </div>
 
           {/* Key Features Icons */}
           <div className="flex flex-wrap justify-center gap-3 sm:gap-4 md:gap-6 mb-8 sm:mb-12 animate-fade-in px-4" style={{animationDelay: '0.6s'}}>

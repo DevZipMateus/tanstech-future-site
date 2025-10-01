@@ -23,11 +23,13 @@ const Hero = () => {
         <div className="max-w-5xl mx-auto">
           {/* Main Heading - H1 as per SEO requirements */}
           <h1 className="mb-2 animate-fade-in px-2 flex justify-center">
-            <img 
-              src={tanstechLogo} 
-              alt="Tanstech - Tecnologia e Mobilidade Sustentável" 
-              className="w-full max-w-md md:max-w-xl lg:max-w-2xl h-auto"
-            />
+            <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-6 sm:p-8 md:p-10">
+              <img 
+                src={tanstechLogo} 
+                alt="Tanstech - Tecnologia e Mobilidade Sustentável" 
+                className="w-full max-w-md md:max-w-xl lg:max-w-2xl h-auto"
+              />
+            </div>
           </h1>
 
           {/* Subheading - H2 as per SEO requirements */}

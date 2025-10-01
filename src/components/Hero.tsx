@@ -22,7 +22,7 @@ const Hero = () => {
       <div className="relative z-10 container mx-auto container-padding text-center">
         <div className="max-w-5xl mx-auto">
           {/* Main Heading - H1 as per SEO requirements */}
-          <h1 className="mb-4 sm:mb-6 animate-fade-in px-2 flex justify-center">
+          <h1 className="mb-2 animate-fade-in px-2 flex justify-center">
             <img 
               src={tanstechLogo} 
               alt="Tanstech - Tecnologia e Mobilidade Sustentável" 
@@ -31,7 +31,7 @@ const Hero = () => {
           </h1>
 
           {/* Subheading - H2 as per SEO requirements */}
-          <h2 className="text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl text-white/90 mb-6 sm:mb-8 animate-fade-in font-inter font-medium leading-relaxed px-4" style={{animationDelay: '0.2s'}}>
+          <h2 className="text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl text-white/90 mb-6 sm:mb-8 animate-fade-in font-inter font-medium leading-relaxed px-4 -mt-2" style={{animationDelay: '0.2s'}}>
             Revolucionando o futuro da mobilidade urbana com soluções elétricas inteligentes para empreendedores visionários
           </h2>
 

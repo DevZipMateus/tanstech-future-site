@@ -23,7 +23,7 @@ const Hero = () => {
         <div className="max-w-5xl mx-auto">
           {/* Main Heading - H1 as per SEO requirements */}
           <h1 className="mb-2 animate-fade-in px-2 flex justify-center">
-            <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-6 sm:p-8 md:p-10">
+            <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-3 sm:p-4 inline-block">
               <img 
                 src={tanstechLogo} 
                 alt="Tanstech - Tecnologia e Mobilidade Sustentável" 

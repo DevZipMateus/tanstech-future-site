@@ -93,9 +93,10 @@ const ProductGallery = () => {
               <Card key={product.id} className="group hover:shadow-lg transition-all duration-300 border border-border/50 hover:border-primary/30 bg-card/50 backdrop-blur-sm flex flex-col h-full">
                 <div className="relative overflow-hidden rounded-t-lg">
                   <img 
-                    src={product.image} 
+                    src={`${product.image}?v=${Date.now()}`} 
                     alt={product.name}
                     className="w-full h-48 sm:h-56 object-cover group-hover:scale-105 transition-transform duration-300"
+                    loading="lazy"
                   />
                 </div>
                 

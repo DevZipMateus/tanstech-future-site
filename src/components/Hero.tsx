@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Zap, Leaf, TrendingUp } from "lucide-react";
+import tanstechLogo from "@/assets/tanstech-logo-hero.png";
 
 const Hero = () => {
   return (
@@ -21,8 +22,12 @@ const Hero = () => {
       <div className="relative z-10 container mx-auto container-padding text-center">
         <div className="max-w-5xl mx-auto">
           {/* Main Heading - H1 as per SEO requirements */}
-          <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-orbitron font-black text-white mb-4 sm:mb-6 animate-fade-in tracking-tight px-2">
-            Tanstech
+          <h1 className="mb-4 sm:mb-6 animate-fade-in px-2 flex justify-center">
+            <img 
+              src={tanstechLogo} 
+              alt="Tanstech - Tecnologia e Mobilidade Sustentável" 
+              className="w-full max-w-md md:max-w-xl lg:max-w-2xl h-auto"
+            />
           </h1>
 
           {/* Subheading - H2 as per SEO requirements */}

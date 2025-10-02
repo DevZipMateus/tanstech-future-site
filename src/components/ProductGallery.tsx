@@ -87,6 +87,11 @@ const ProductGallery = () => {
     name: "AUTOPROPELIDO MODELO GTX1000",
     image: "/assets/products/bike-gtx1000.jpg",
     specifications: ["MOTOR: 1000W POWER", "BATERIA LÍTIO: 30A 48V", "PAINEL: NFC", "PNEU ARO: 24\"", "SUSPENSÃO: FLEX INTELIGENTE", "CÂMBIO: 07 VELOCIDADES (SHIMANO)", "VELOCIDADE: 32 KM/H", "AUTONOMIA: 90 A 100KM", "FREIOS: ZOOM SYSTEM ALTA PERFORMANCE"]
+  }, {
+    id: 18,
+    name: "AUTOPROPELIDO MODELO WD3-S",
+    image: "/assets/products/scooter-wd3s.jpg",
+    specifications: ["MOTOR: 1000W", "BATERIA LÍTIO: 60V 21AH", "ASSENTO AMPLIADO", "EQUIPADO COM NFC E BLUETOOTH", "FREIO DIANTEIRO: DISCO HIDRÁULICO", "OPÇÃO DE BAÚ TRASEIRO", "CORES: PRETO, BRANCO, VERDE, CINZA"]
   }];
   return <section id="products" className="section-padding bg-background">
       <div className="container mx-auto container-padding">

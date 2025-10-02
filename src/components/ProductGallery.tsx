@@ -77,6 +77,11 @@ const ProductGallery = () => {
     name: "AUTOPROPELIDO MODELO X12S",
     image: "/assets/products/scooter-x12s.jpg",
     specifications: ["POTÊNCIA: 1000W (RÉ)", "BATERIA LÍTIO: 20AH REMOVÍVEL", "VELOCIDADE MÁXIMA: 32KM/H", "AUTONOMIA: ATÉ 60KM", "FREIO DISCO DIANTEIRO E HIDRÁULICO TRASEIRO", "BANCO DUPLO COM ENCOSTO", "CARGA MÁXIMA: 200KG", "SETAS E FAROL EM LED", "CARREGADOR BIVOLT", "RECARGA: 5 HORAS", "PAINEL DIGITAL LED", "CONEXÃO: BLUETOOTH", "IGNIÇÃO: NFC, ALARME ANTI-FURTO", "AMORTECEDOR", "NÃO EXIGE CNH E EMPLACAMENTO*", "RESISTENTE À ÁGUA IP65"]
+  }, {
+    id: 16,
+    name: "AUTOPROPELIDO MODELO JET 1000",
+    image: "/assets/products/scooter-jet-1000.jpg",
+    specifications: ["POTÊNCIA: 1000W", "BATERIA LÍTIO: 60V 20AH", "VELOCIDADE MÁXIMA: ATÉ 32KM/H", "AUTONOMIA: DE 40 A 60KM", "BANCO: PARA 2 PESSOAS", "CAPACIDADE: 150KG", "CARREGADOR: BIVOLT", "CNH: NÃO OBRIGATÓRIO"]
   }];
   return <section id="products" className="section-padding bg-background">
       <div className="container mx-auto container-padding">

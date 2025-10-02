@@ -92,6 +92,11 @@ const ProductGallery = () => {
     name: "AUTOPROPELIDO MODELO WD3-S",
     image: "/assets/products/scooter-wd3s.jpg",
     specifications: ["MOTOR: 1000W", "BATERIA LÍTIO: 60V 21AH", "ASSENTO AMPLIADO", "EQUIPADO COM NFC E BLUETOOTH", "FREIO DIANTEIRO: DISCO HIDRÁULICO", "OPÇÃO DE BAÚ TRASEIRO", "CORES: PRETO, BRANCO, VERDE, CINZA"]
+  }, {
+    id: 19,
+    name: "TRICICLO MODELO TCTC",
+    image: "/assets/products/triciclo-tctc.jpg",
+    specifications: ["MOTOR: 800W", "BATERIA LÍTIO: 64V 20AH REMOVÍVEL", "FREIOS: HIDRÁULICOS", "AUTONOMIA: 45KM", "VELOCIDADE: ATÉ 32KM/H", "PARABRISA/LIMPADOR (VIDRO TEMPERADO)", "LARGURA: 0,70CM (PERMITIDO)", "CORES: PRETO, CREME"]
   }];
   return <section id="products" className="section-padding bg-background">
       <div className="container mx-auto container-padding">

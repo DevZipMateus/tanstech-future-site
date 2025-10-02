@@ -79,7 +79,7 @@ const Solutions = () => {
                     {product.description}
                   </p>
 
-                  <div className="space-y-3 mb-8">
+                  <div className="space-y-3">
                     {product.features.map((feature, idx) => (
                       <div key={idx} className="flex items-center justify-center text-sm text-muted-foreground">
                         <div className="w-2 h-2 bg-electric rounded-full mr-3 flex-shrink-0"></div>
@@ -87,16 +87,6 @@ const Solutions = () => {
                       </div>
                     ))}
                   </div>
-
-                  <Button
-                    asChild
-                    variant="outline"
-                    className="w-full border-primary/30 text-primary hover:bg-primary hover:text-primary-foreground"
-                  >
-                    <a href="https://wa.me/5547997716947" target="_blank" rel="noopener noreferrer">
-                      Solicitar informações
-                    </a>
-                  </Button>
                 </Card>
               );
             })}
@@ -137,26 +127,6 @@ const Solutions = () => {
             </div>
           </div>
 
-          {/* CTA */}
-          <div className="text-center mt-16">
-            <h3 className="text-2xl md:text-3xl font-orbitron font-bold text-foreground mb-6">
-              Interesse em nossos produtos?
-            </h3>
-            <p className="text-lg text-muted-foreground mb-8 max-w-2xl mx-auto">
-              Entre em contato conosco para conhecer nossa linha completa de produtos 
-              e descobrir as melhores oportunidades para seu negócio.
-            </p>
-            
-            <Button
-              asChild
-              size="lg"
-              className="btn-electric electric-glow text-lg px-8 py-6 h-auto"
-            >
-              <a href="https://wa.me/5547997716947" target="_blank" rel="noopener noreferrer">
-                Falar com especialista
-              </a>
-            </Button>
-          </div>
         </div>
       </div>
     </section>

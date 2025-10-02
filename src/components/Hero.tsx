@@ -71,17 +71,6 @@ const Hero = () => {
                 <ArrowRight className="ml-2 w-4 h-4 sm:w-5 sm:h-5" />
               </a>
             </Button>
-            
-            <Button
-              asChild
-              variant="outline"
-              size="lg"
-              className="bg-white/15 text-white border-white/50 hover:bg-white/25 hover:border-white/70 backdrop-blur-sm text-base sm:text-lg px-6 sm:px-8 py-4 sm:py-6 h-auto w-full sm:w-auto"
-            >
-              <a href="#about">
-                Saiba mais
-              </a>
-            </Button>
           </div>
 
           {/* Stats */}

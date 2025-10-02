@@ -104,28 +104,15 @@ const Services = () => {
               um negócio de sucesso no mercado de mobilidade elétrica.
             </p>
             
-            <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center">
-              <Button
-                asChild
-                size="lg"
-                className="bg-white text-primary hover:bg-white/90 hover:text-primary border border-white backdrop-blur-sm text-sm sm:text-base md:text-lg px-6 sm:px-8 py-4 sm:py-6 h-auto"
-              >
-                <a href="https://wa.me/5547997716947" target="_blank" rel="noopener noreferrer">
-                  Fale conosco no WhatsApp
-                </a>
-              </Button>
-              
-              <Button
-                asChild
-                variant="outline"
-                size="lg"
-                className="bg-transparent border-white/60 text-white hover:bg-white/15 hover:border-white/80 backdrop-blur-sm text-sm sm:text-base md:text-lg px-6 sm:px-8 py-4 sm:py-6 h-auto"
-              >
-                <a href="#contact">
-                  Ver contatos
-                </a>
-              </Button>
-            </div>
+            <Button
+              asChild
+              size="lg"
+              className="bg-white text-primary hover:bg-white/90 hover:text-primary border border-white backdrop-blur-sm text-sm sm:text-base md:text-lg px-6 sm:px-8 py-4 sm:py-6 h-auto"
+            >
+              <a href="https://wa.me/5547997716947" target="_blank" rel="noopener noreferrer">
+                Fale conosco no WhatsApp
+              </a>
+            </Button>
           </div>
         </div>
       </div>

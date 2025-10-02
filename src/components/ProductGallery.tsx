@@ -82,6 +82,11 @@ const ProductGallery = () => {
     name: "AUTOPROPELIDO MODELO JET 1000",
     image: "/assets/products/scooter-jet-1000.jpg",
     specifications: ["POTÊNCIA: 1000W", "BATERIA LÍTIO: 60V 20AH", "VELOCIDADE MÁXIMA: ATÉ 32KM/H", "AUTONOMIA: DE 40 A 60KM", "BANCO: PARA 2 PESSOAS", "CAPACIDADE: 150KG", "CARREGADOR: BIVOLT", "CNH: NÃO OBRIGATÓRIO"]
+  }, {
+    id: 17,
+    name: "AUTOPROPELIDO MODELO GTX1000",
+    image: "/assets/products/bike-gtx1000.jpg",
+    specifications: ["MOTOR: 1000W POWER", "BATERIA LÍTIO: 30A 48V", "PAINEL: NFC", "PNEU ARO: 24\"", "SUSPENSÃO: FLEX INTELIGENTE", "CÂMBIO: 07 VELOCIDADES (SHIMANO)", "VELOCIDADE: 32 KM/H", "AUTONOMIA: 90 A 100KM", "FREIOS: ZOOM SYSTEM ALTA PERFORMANCE"]
   }];
   return <section id="products" className="section-padding bg-background">
       <div className="container mx-auto container-padding">

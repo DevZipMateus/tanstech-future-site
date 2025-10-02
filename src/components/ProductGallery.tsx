@@ -72,6 +72,11 @@ const ProductGallery = () => {
     name: "AUTOPROPELIDO MODELO SWD6",
     image: "/assets/products/autopropelido-swd6.jpg",
     specifications: ["POTÊNCIA: 1000W", "CONTROLE VELOCIDADE 1,2,3", "BATERIA LÍTIO: 20AH", "VELOC. LIMITE: 32KM/H", "AUTONOMIA: ATÉ 55KM (POR CARGA)", "CONEXÃO: BLUETOOTH", "IGNIÇÃO: NFC, ALARME", "CORES: BRANCO, VERMELHO, CINZA, PRETO"]
+  }, {
+    id: 15,
+    name: "AUTOPROPELIDO MODELO X12S",
+    image: "/assets/products/scooter-x12s.jpg",
+    specifications: ["POTÊNCIA: 1000W (RÉ)", "BATERIA LÍTIO: 20AH REMOVÍVEL", "VELOCIDADE MÁXIMA: 32KM/H", "AUTONOMIA: ATÉ 60KM", "FREIO DISCO DIANTEIRO E HIDRÁULICO TRASEIRO", "BANCO DUPLO COM ENCOSTO", "CARGA MÁXIMA: 200KG", "SETAS E FAROL EM LED", "CARREGADOR BIVOLT", "RECARGA: 5 HORAS", "PAINEL DIGITAL LED", "CONEXÃO: BLUETOOTH", "IGNIÇÃO: NFC, ALARME ANTI-FURTO", "AMORTECEDOR", "NÃO EXIGE CNH E EMPLACAMENTO*", "RESISTENTE À ÁGUA IP65"]
   }];
   return <section id="products" className="section-padding bg-background">
       <div className="container mx-auto container-padding">

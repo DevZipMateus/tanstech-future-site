@@ -40,7 +40,7 @@ const ProductGallery = () => {
   }, {
     id: 8,
     name: "AUTOPROPELIDO MODELO SE6",
-    image: "/assets/products/autopropelido-se6.jpg",
+    image: "/assets/products/autopropelido-se6.jpg?v=2",
     specifications: ["POTÊNCIA: 1000W", "CONTROLE VELOCIDADE 1,2,3", "BATERIA LÍTIO: 20AH", "VELOC. LIMITE: 32KM/H", "AUTONOMIA: ATÉ 55KM (POR CARGA)", "CONEXÃO: BLUETOOTH", "IGNIÇÃO: NFC, ALARME", "LUZES EM LED", "PORTA OBJETOS", "BAU (ITEM DE SÉRIE)", "CORES: BRANCO, VERMELHO, CINZA, E PRETO"]
   }, {
     id: 9,

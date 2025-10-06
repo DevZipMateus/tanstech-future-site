@@ -107,6 +107,11 @@ const ProductGallery = () => {
     name: "AUTOPROPELIDO MODELO 007U",
     image: "/assets/products/scooter-007u.jpg",
     specifications: ["POTÊNCIA: 1000W", "BATERIA LÍTIO: 60V 20AH", "VELOCIDADE: ATÉ 32KM/H", "AUTONOMIA: 40 A 60KM", "BANCO: PARA 2 PESSOAS", "CAPACIDADE: 200KG", "CARREGADOR: BIVOLT", "CNH: NÃO OBRIGATÓRIO"]
+  }, {
+    id: 22,
+    name: "AUTOPROPELIDO MODELO VESPHA RETRO",
+    image: "/assets/products/scooter-vespha-retro.jpg",
+    specifications: ["POTÊNCIA: 800W 64V", "BATERIA LÍTIO: 60V 20AH", "VELOCIDADE: ATÉ 32KM/H", "AUTONOMIA: 40 A 60KM", "BANCO: PARA 2 PESSOAS", "CAPACIDADE: 180KG", "CARREGADOR: BIVOLT", "CNH: NÃO OBRIGATÓRIO"]
   }];
   return <section id="products" className="section-padding bg-background">
       <div className="container mx-auto container-padding">

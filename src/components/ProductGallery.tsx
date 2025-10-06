@@ -97,6 +97,11 @@ const ProductGallery = () => {
     name: "TRICICLO MODELO TCTC",
     image: "/assets/products/triciclo-tctc.jpg",
     specifications: ["MOTOR: 800W", "BATERIA LÍTIO: 64V 20AH REMOVÍVEL", "FREIOS: HIDRÁULICOS", "AUTONOMIA: 45KM", "VELOCIDADE: ATÉ 32KM/H", "PARABRISA/LIMPADOR (VIDRO TEMPERADO)", "LARGURA: 0,70CM (PERMITIDO)", "CORES: PRETO, CREME"]
+  }, {
+    id: 20,
+    name: "AUTOPROPELIDO MODELO MIN1000",
+    image: "/assets/products/scooter-min1000.jpg",
+    specifications: ["POTÊNCIA: 1000W", "BATERIA LÍTIO: 60V 12AH", "VELOCIDADE: ATÉ 32KM/H", "AUTONOMIA: 40 A 60KM", "BANCO: PARA 1 PESSOA", "CAPACIDADE: 150KG", "CARREGADOR: BIVOLT", "CNH: NÃO OBRIGATÓRIO", "CORES: BRANCA, PRETO, VERMELHO, MILITAR, INGLATERRA ETC"]
   }];
   return <section id="products" className="section-padding bg-background">
       <div className="container mx-auto container-padding">

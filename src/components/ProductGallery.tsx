@@ -1,129 +1,190 @@
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
-import { ExternalLink } from "lucide-react";
+import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
+import { ExternalLink, Bike, Zap, Truck } from "lucide-react";
+
 const ProductGallery = () => {
   const products = [{
     id: 1,
     name: "AUTOPROPELIDO MODELO SD3",
     image: "/assets/products/autopropelido-sd3-novo.jpg",
+    category: "medio",
     specifications: ["POTÊNCIA: 1000W", "CONTROLE VELOCIDADE 1,2,3 (RÉ)", "BATERIA LÍTIO: 20AH", "VELOC. LIMITE: 32KM/H", "AUTONOMIA: ATÉ 55KM (POR CARGA)", "CONEXÃO: BLUETOOTH", "IGNIÇÃO: NFC, ALARME", "PORTA OBJETOS", "BAU (ITEM DE SÉRIE)", "CORES: BRANCO, VERMELHO, CINZA, ROXO E PRETO"]
   }, {
     id: 2,
     name: "AUTOPROPELIDO MODELO A3",
     image: "/assets/products/autopropelido-a3.jpg",
+    category: "medio",
     specifications: ["POTÊNCIA: 1000W", "CONTROLE VELOCIDADE 1,2,3 (RÉ)", "BATERIA LÍTIO: 20AH", "VELOC. LIMITE: 32KM/H", "AUTONOMIA: ATÉ 55KM (POR CARGA)", "CONEXÃO: BLUETOOTH", "IGNIÇÃO: NFC, ALARME", "PORTA OBJETOS", "BAU (ITEM DE SÉRIE)", "CORES: BRANCO, CINZA E PRETO"]
   }, {
     id: 3,
     name: "AUTOPROPELIDO MODELO X13",
     image: "/assets/products/autopropelido-x13-new.jpg",
+    category: "medio",
     specifications: ["POTÊNCIA: 1000W", "CONTROLE VELOCIDADE 1,2,3 E RÉ", "BATERIA LÍTIO: 24AH", "VELOC. LIMITE: 32KM/H", "AUTONOMIA: ATÉ 55KM (POR CARGA)", "CONEXÃO: BLUETOOTH", "IGNIÇÃO: NFC, ALARME", "CORES: BRANCO, INGLATERRA, VERMELHO, CINZA, PRETO, CARBONO, ETC"]
   }, {
     id: 4,
     name: "AUTOPROPELIDO MODELO SWD3",
     image: "/assets/products/autopropelido-swd3.jpg",
+    category: "medio",
     specifications: ["POTÊNCIA: 1000W", "CONTROLE VELOCIDADE 1,2,3", "BATERIA LÍTIO: 20AH", "VELOC. LIMITE: 32KM/H", "AUTONOMIA: ATÉ 55KM (POR CARGA)", "CONEXÃO: BLUETOOTH", "IGNIÇÃO: NFC, ALARME", "PORTA OBJETOS", "CORES: BRANCO, VERMELHO, CINZA E PRETO"]
   }, {
     id: 5,
     name: "AUTOPROPELIDO MODELO SWD4",
     image: "/assets/products/autopropelido-swd4.jpg",
+    category: "medio",
     specifications: ["POTÊNCIA: 1000W", "CONTROLE VELOCIDADE 1,2,3", "BATERIA LÍTIO: 20AH", "VELOC. LIMITE: 32KM/H", "AUTONOMIA: ATÉ 55KM (POR CARGA)", "CONEXÃO: BLUETOOTH", "IGNIÇÃO: NFC, ALARME", "PORTA OBJETOS", "CORES: BRANCO, CINZA, PRETO"]
   }, {
     id: 6,
     name: "AUTOPROPELIDO MODELO SP JOY",
     image: "/assets/products/autopropelido-sp-joy.jpg",
+    category: "medio",
     specifications: ["POTÊNCIA: 800W", "CONTROLE VELOCIDADE 1,2,3", "BATERIA LÍTIO: 20AH", "VELOC. LIMITE: 32KM/H", "AUTONOMIA: ATÉ 55KM (POR CARGA)", "CONEXÃO: BLUETOOTH", "IGNIÇÃO: NFC, ALARME", "PORTA OBJETOS", "CORES: BRANCO, VERMELHO, CINZA, PRETO"]
   }, {
     id: 7,
     name: "AUTOPROPELIDO MODELO SP8",
     image: "/assets/products/autopropelido-sp8.jpg",
+    category: "medio",
     specifications: ["POTÊNCIA: 1000W", "CONTROLE VELOCIDADE 1,2,3 (RÉ)", "BATERIA LÍTIO: 20AH", "VELOC. LIMITE: 32KM/H", "AUTONOMIA: ATÉ 55KM (POR CARGA)", "CONEXÃO: BLUETOOTH", "IGNIÇÃO: NFC, ALARME", "PORTA OBJETOS", "BAU (ITEM DE SÉRIE)", "CORES: BRANCO, VERMELHO, CINZA E PRETO"]
   }, {
     id: 8,
     name: "AUTOPROPELIDO MODELO SE6",
     image: "/assets/products/autopropelido-se6.jpg?v=2",
+    category: "medio",
     specifications: ["POTÊNCIA: 1000W", "CONTROLE VELOCIDADE 1,2,3", "BATERIA LÍTIO: 20AH", "VELOC. LIMITE: 32KM/H", "AUTONOMIA: ATÉ 55KM (POR CARGA)", "CONEXÃO: BLUETOOTH", "IGNIÇÃO: NFC, ALARME", "LUZES EM LED", "PORTA OBJETOS", "BAU (ITEM DE SÉRIE)", "CORES: BRANCO, VERMELHO, CINZA, E PRETO"]
   }, {
     id: 9,
     name: "CICLOMOTOR MODELO CHOPPER",
     image: "/assets/products/chopper-4000w.jpg",
+    category: "grande",
     specifications: ["POTÊNCIA: 4.000W", "CONTROLE VELOCIDADE 1,2,3 (RÉ)", "BATERIA LÍTIO: 42AH", "VELOC. LIMITE: 90KM/H", "AUTONOMIA: ATÉ 75KM (POR CARGA)", "CONEXÃO: BLUETOOTH", "IGNIÇÃO: ALARME E CHAVES CODIFICADAS", "BANCO EXTRA (OPCIONAL)", "CORES: VERMELHO, AZUL E PRETO"]
   }, {
     id: 10,
     name: "PATINETE ELÉTRICO 350W",
     image: "/assets/products/patinete-350w.jpg",
+    category: "pequeno",
     specifications: ["POTÊNCIA: 350W", "BATERIA LÍTIO: 8AH", "VELOCIDADE MÁXIMA: 32KM/H", "AUTONOMIA: ATÉ 30KM", "PNEUS: CALIBRAGEM", "BOLSA (OPCIONAL)"]
   }, {
     id: 11,
     name: "AUTOPROPELIDO MODELO SV8",
     image: "/assets/products/bike-sv8.jpg",
+    category: "medio",
     specifications: ["POTÊNCIA: 1000W", "CONTROLE VELOCIDADE 1,2,3", "BATERIA LÍTIO: 15AH", "PEDAL ASSISTIDO", "VELOC. LIMITE: 32KM/H", "AUTONOMIA: ATÉ 75KM (POR CARGA)", "IGNIÇÃO: NFC, ALARME", "CORES BANCO: PRETO, MARROM"]
   }, {
     id: 12,
     name: "AUTOPROPELIDO MODELO SWD5",
     image: "/assets/products/autopropelido-swd5.jpg",
+    category: "medio",
     specifications: ["POTÊNCIA: 1000W", "CONTROLE VELOCIDADE 1,2,3", "BATERIA LÍTIO: 20AH", "VELOC. LIMITE: 32KM/H", "AUTONOMIA: ATÉ 55KM (POR CARGA)", "CONEXÃO: BLUETOOTH", "IGNIÇÃO: NFC, ALARME", "PORTA OBJETOS", "CORES: BRANCO, CINZA, PRETO E VERMELHO"]
   }, {
     id: 13,
     name: "TRICICLO FAMILY",
     image: "/assets/products/triciclo-family.jpg",
+    category: "grande",
     specifications: ["POTÊNCIA: 1000W", "CARGA MÁXIMO: 250 KG", "CONTROLE VELOCIDADE 1,2,3 E RÉ", "BATERIA LÍTIO: 20AH", "VELOC. LIMITE: 32KM/H", "AUTONOMIA: ATÉ 65KM (POR CARGA)", "CONEXÃO: BLUETOOTH", "IGNIÇÃO: NFC, ALARME", "ASSENTOS: 1, 2 E 3 OPÇÕES", "CORES: BRANCO, VERMELHO, CINZA, PRETO ETC"]
   }, {
     id: 14,
     name: "AUTOPROPELIDO MODELO SWD6",
     image: "/assets/products/autopropelido-swd6.jpg",
+    category: "medio",
     specifications: ["POTÊNCIA: 1000W", "CONTROLE VELOCIDADE 1,2,3", "BATERIA LÍTIO: 20AH", "VELOC. LIMITE: 32KM/H", "AUTONOMIA: ATÉ 55KM (POR CARGA)", "CONEXÃO: BLUETOOTH", "IGNIÇÃO: NFC, ALARME", "CORES: BRANCO, VERMELHO, CINZA, PRETO"]
   }, {
     id: 15,
     name: "AUTOPROPELIDO MODELO X12S",
     image: "/assets/products/scooter-x12s.jpg",
+    category: "medio",
     specifications: ["POTÊNCIA: 1000W (RÉ)", "BATERIA LÍTIO: 20AH REMOVÍVEL", "VELOCIDADE MÁXIMA: 32KM/H", "AUTONOMIA: ATÉ 60KM", "FREIO DISCO DIANTEIRO E HIDRÁULICO TRASEIRO", "BANCO DUPLO COM ENCOSTO", "CARGA MÁXIMA: 200KG", "SETAS E FAROL EM LED", "CARREGADOR BIVOLT", "RECARGA: 5 HORAS", "PAINEL DIGITAL LED", "CONEXÃO: BLUETOOTH", "IGNIÇÃO: NFC, ALARME ANTI-FURTO", "AMORTECEDOR", "NÃO EXIGE CNH E EMPLACAMENTO*", "RESISTENTE À ÁGUA IP65"]
   }, {
     id: 16,
     name: "AUTOPROPELIDO MODELO JET 1000",
     image: "/assets/products/scooter-jet-1000.jpg",
+    category: "medio",
     specifications: ["POTÊNCIA: 1000W", "BATERIA LÍTIO: 60V 20AH", "VELOCIDADE MÁXIMA: ATÉ 32KM/H", "AUTONOMIA: DE 40 A 60KM", "BANCO: PARA 2 PESSOAS", "CAPACIDADE: 150KG", "CARREGADOR: BIVOLT", "CNH: NÃO OBRIGATÓRIO"]
   }, {
     id: 17,
     name: "AUTOPROPELIDO MODELO GTX1000",
     image: "/assets/products/bike-gtx1000.jpg",
+    category: "medio",
     specifications: ["MOTOR: 1000W POWER", "BATERIA LÍTIO: 30A 48V", "PAINEL: NFC", "PNEU ARO: 24\"", "SUSPENSÃO: FLEX INTELIGENTE", "CÂMBIO: 07 VELOCIDADES (SHIMANO)", "VELOCIDADE: 32 KM/H", "AUTONOMIA: 90 A 100KM", "FREIOS: ZOOM SYSTEM ALTA PERFORMANCE"]
   }, {
     id: 18,
     name: "AUTOPROPELIDO MODELO WD3-S",
     image: "/assets/products/scooter-wd3s.jpg",
+    category: "medio",
     specifications: ["MOTOR: 1000W", "BATERIA LÍTIO: 60V 21AH", "ASSENTO AMPLIADO", "EQUIPADO COM NFC E BLUETOOTH", "FREIO DIANTEIRO: DISCO HIDRÁULICO", "OPÇÃO DE BAÚ TRASEIRO", "CORES: PRETO, BRANCO, VERDE, CINZA"]
   }, {
     id: 19,
     name: "TRICICLO MODELO TCTC",
     image: "/assets/products/triciclo-tctc.jpg",
+    category: "grande",
     specifications: ["MOTOR: 800W", "BATERIA LÍTIO: 64V 20AH REMOVÍVEL", "FREIOS: HIDRÁULICOS", "AUTONOMIA: 45KM", "VELOCIDADE: ATÉ 32KM/H", "PARABRISA/LIMPADOR (VIDRO TEMPERADO)", "LARGURA: 0,70CM (PERMITIDO)", "CORES: PRETO, CREME"]
   }, {
     id: 20,
     name: "AUTOPROPELIDO MODELO MIN1000",
     image: "/assets/products/scooter-min1000.jpg",
+    category: "medio",
     specifications: ["POTÊNCIA: 1000W", "BATERIA LÍTIO: 60V 12AH", "VELOCIDADE: ATÉ 32KM/H", "AUTONOMIA: 40 A 60KM", "BANCO: PARA 1 PESSOA", "CAPACIDADE: 150KG", "CARREGADOR: BIVOLT", "CNH: NÃO OBRIGATÓRIO", "CORES: BRANCA, PRETO, VERMELHO, MILITAR, INGLATERRA ETC"]
   }, {
     id: 21,
     name: "AUTOPROPELIDO MODELO 007U",
     image: "/assets/products/scooter-007u.jpg",
+    category: "medio",
     specifications: ["POTÊNCIA: 1000W", "BATERIA LÍTIO: 60V 20AH", "VELOCIDADE: ATÉ 32KM/H", "AUTONOMIA: 40 A 60KM", "BANCO: PARA 2 PESSOAS", "CAPACIDADE: 200KG", "CARREGADOR: BIVOLT", "CNH: NÃO OBRIGATÓRIO"]
   }, {
     id: 22,
     name: "AUTOPROPELIDO MODELO VESPHA RETRO",
     image: "/assets/products/scooter-vespha-retro.jpg",
+    category: "medio",
     specifications: ["POTÊNCIA: 800W 64V", "BATERIA LÍTIO: 60V 20AH", "VELOCIDADE: ATÉ 32KM/H", "AUTONOMIA: 40 A 60KM", "BANCO: PARA 2 PESSOAS", "CAPACIDADE: 180KG", "CARREGADOR: BIVOLT", "CNH: NÃO OBRIGATÓRIO"]
   }, {
     id: 23,
     name: "TRICICLO MODELO EVEE FAMILY",
     image: "/assets/products/triciclo-evee-family.jpg",
+    category: "grande",
     specifications: ["POTÊNCIA: 1000W", "CARGA MÁXIMA: 250KG", "CONTROLE VELOCIDADE: 1,2,3 E RÉ", "BATERIA LÍTIO: 20AH", "VELOCIDADE LIMITE: 32KM/H", "AUTONOMIA: ATÉ 65KM (POR CARGA)", "CONEXÃO: BLUETOOTH", "IGNIÇÃO: NFC, ALARME", "ASSENTOS: 1, 2 E 3 OPÇÕES", "INVERSÃO DE ASSENTO + BAGAGEIRO", "CORES: BRANCO, PRETO"]
   }, {
     id: 24,
     name: "AUTOPROPELIDO MODELO U008",
     image: "/assets/products/scooter-u008.jpg",
+    category: "medio",
     specifications: ["POTÊNCIA: 1000W", "BATERIA LÍTIO: 60V 20AH", "VELOCIDADE: ATÉ 32KM/H", "AUTONOMIA: 40 A 60KM", "BANCO: PARA 2 PESSOAS", "CAPACIDADE: 200KG", "CARREGADOR: BIVOLT", "CNH: NÃO OBRIGATÓRIO"]
   }];
-  return <section id="products" className="section-padding bg-background">
+
+  const filterProducts = (category: string) => {
+    return products.filter(product => product.category === category);
+  };
+
+  const renderProductCard = (product: typeof products[0]) => (
+    <Card key={product.id} className="group hover:shadow-lg transition-all duration-300 border border-border/50 hover:border-primary/30 bg-card/50 backdrop-blur-sm flex flex-col h-full">
+      <div className="relative overflow-hidden rounded-t-lg">
+        <img src={`${product.image}?v=${Date.now()}`} alt={product.name} className="w-full h-48 sm:h-56 object-cover group-hover:scale-105 transition-transform duration-300" loading="lazy" />
+      </div>
+      
+      <div className="p-4 sm:p-6 flex flex-col flex-grow">
+        <h3 className="font-orbitron font-bold text-lg sm:text-xl text-foreground mb-3 sm:mb-4">
+          {product.name}
+        </h3>
+        
+        <div className="space-y-1.5 sm:space-y-2 mb-4 sm:mb-6 flex-grow">
+          {product.specifications.map((spec, specIndex) => (
+            <div key={specIndex} className="text-xs sm:text-sm text-muted-foreground font-medium">
+              {spec}
+            </div>
+          ))}
+        </div>
+        
+        <Button asChild className="w-full bg-primary text-primary-foreground hover:bg-primary-glow shadow-electric text-xs sm:text-sm mt-auto">
+          <a href="https://wa.me/5547997716947" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center gap-2">
+            <ExternalLink className="w-3 h-3 sm:w-4 sm:h-4" />
+            Solicitar orçamento
+          </a>
+        </Button>
+      </div>
+    </Card>
+  );
+
+  return (
+    <section id="products" className="section-padding bg-background">
       <div className="container mx-auto container-padding">
         <div className="max-w-7xl mx-auto">
           {/* Section Header */}
@@ -137,38 +198,48 @@ const ProductGallery = () => {
             </p>
           </div>
 
-          {/* Product Grid */}
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 sm:gap-6 lg:gap-8 mb-12 sm:mb-16">
-            {products.map((product, index) => <Card key={product.id} className="group hover:shadow-lg transition-all duration-300 border border-border/50 hover:border-primary/30 bg-card/50 backdrop-blur-sm flex flex-col h-full">
-                <div className="relative overflow-hidden rounded-t-lg">
-                  <img src={`${product.image}?v=${Date.now()}`} alt={product.name} className="w-full h-48 sm:h-56 object-cover group-hover:scale-105 transition-transform duration-300" loading="lazy" />
-                </div>
-                
-                <div className="p-4 sm:p-6 flex flex-col flex-grow">
-                  <h3 className="font-orbitron font-bold text-lg sm:text-xl text-foreground mb-3 sm:mb-4">
-                    {product.name}
-                  </h3>
-                  
-                  <div className="space-y-1.5 sm:space-y-2 mb-4 sm:mb-6 flex-grow">
-                    {product.specifications.map((spec, specIndex) => <div key={specIndex} className="text-xs sm:text-sm text-muted-foreground font-medium">
-                        {spec}
-                      </div>)}
-                  </div>
-                  
-                  <Button asChild className="w-full bg-primary text-primary-foreground hover:bg-primary-glow shadow-electric text-xs sm:text-sm mt-auto">
-                    <a href="https://wa.me/5547997716947" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center gap-2">
-                      <ExternalLink className="w-3 h-3 sm:w-4 sm:h-4" />
-                      Solicitar orçamento
-                    </a>
-                  </Button>
-                </div>
-              </Card>)}
-          </div>
+          {/* Tabs */}
+          <Tabs defaultValue="medio" className="w-full">
+            <TabsList className="grid w-full max-w-2xl mx-auto grid-cols-3 mb-8 sm:mb-12 h-auto">
+              <TabsTrigger value="pequeno" className="flex items-center gap-2 py-3">
+                <Zap className="w-4 h-4" />
+                <span className="hidden sm:inline">Pequeno Porte</span>
+                <span className="sm:hidden">Pequeno</span>
+              </TabsTrigger>
+              <TabsTrigger value="medio" className="flex items-center gap-2 py-3">
+                <Bike className="w-4 h-4" />
+                <span className="hidden sm:inline">Médio Porte</span>
+                <span className="sm:hidden">Médio</span>
+              </TabsTrigger>
+              <TabsTrigger value="grande" className="flex items-center gap-2 py-3">
+                <Truck className="w-4 h-4" />
+                <span className="hidden sm:inline">Grande Porte</span>
+                <span className="sm:hidden">Grande</span>
+              </TabsTrigger>
+            </TabsList>
 
-          {/* CTA Section */}
-          
+            <TabsContent value="pequeno" className="mt-6">
+              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 sm:gap-6 lg:gap-8">
+                {filterProducts("pequeno").map(renderProductCard)}
+              </div>
+            </TabsContent>
+
+            <TabsContent value="medio" className="mt-6">
+              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 sm:gap-6 lg:gap-8">
+                {filterProducts("medio").map(renderProductCard)}
+              </div>
+            </TabsContent>
+
+            <TabsContent value="grande" className="mt-6">
+              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 sm:gap-6 lg:gap-8">
+                {filterProducts("grande").map(renderProductCard)}
+              </div>
+            </TabsContent>
+          </Tabs>
         </div>
       </div>
-    </section>;
+    </section>
+  );
 };
+
 export default ProductGallery;

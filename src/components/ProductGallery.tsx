@@ -139,15 +139,9 @@ const ProductGallery = () => {
 
           {/* Product Grid */}
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 sm:gap-6 lg:gap-8 mb-12 sm:mb-16">
-            {products.map((product, index) => (
-              <Card key={product.id} className="group hover:shadow-lg transition-all duration-300 border border-border/50 hover:border-primary/30 bg-card/50 backdrop-blur-sm flex flex-col h-full">
+            {products.map((product, index) => <Card key={product.id} className="group hover:shadow-lg transition-all duration-300 border border-border/50 hover:border-primary/30 bg-card/50 backdrop-blur-sm flex flex-col h-full">
                 <div className="relative overflow-hidden rounded-t-lg">
-                  <img 
-                    src={`${product.image}?v=${Date.now()}`} 
-                    alt={product.name}
-                    className="w-full h-48 sm:h-56 object-cover group-hover:scale-105 transition-transform duration-300"
-                    loading="lazy"
-                  />
+                  <img src={`${product.image}?v=${Date.now()}`} alt={product.name} className="w-full h-48 sm:h-56 object-cover group-hover:scale-105 transition-transform duration-300" loading="lazy" />
                 </div>
                 
                 <div className="p-4 sm:p-6 flex flex-col flex-grow">
@@ -156,48 +150,23 @@ const ProductGallery = () => {
                   </h3>
                   
                   <div className="space-y-1.5 sm:space-y-2 mb-4 sm:mb-6 flex-grow">
-                    {product.specifications.map((spec, specIndex) => (
-                      <div key={specIndex} className="text-xs sm:text-sm text-muted-foreground font-medium">
+                    {product.specifications.map((spec, specIndex) => <div key={specIndex} className="text-xs sm:text-sm text-muted-foreground font-medium">
                         {spec}
-                      </div>
-                    ))}
+                      </div>)}
                   </div>
                   
-                  <Button 
-                    asChild 
-                    className="w-full bg-primary text-primary-foreground hover:bg-primary-glow shadow-electric text-xs sm:text-sm mt-auto"
-                  >
-                    <a 
-                      href="https://wa.me/5547997716947" 
-                      target="_blank" 
-                      rel="noopener noreferrer"
-                      className="flex items-center justify-center gap-2"
-                    >
+                  <Button asChild className="w-full bg-primary text-primary-foreground hover:bg-primary-glow shadow-electric text-xs sm:text-sm mt-auto">
+                    <a href="https://wa.me/5547997716947" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center gap-2">
                       <ExternalLink className="w-3 h-3 sm:w-4 sm:h-4" />
                       Solicitar orçamento
                     </a>
                   </Button>
                 </div>
-              </Card>
-            ))}
+              </Card>)}
           </div>
 
           {/* CTA Section */}
-          <div className="text-center bg-primary/5 rounded-2xl p-6 sm:p-8 md:p-12 border border-primary/10">
-            <h3 className="text-xl sm:text-2xl md:text-3xl font-orbitron font-bold text-foreground mb-4 px-4">
-              Interessado em algum produto?
-            </h3>
-            <p className="text-base sm:text-lg text-muted-foreground mb-6 sm:mb-8 max-w-2xl mx-auto px-4">
-              Entre em contato conosco para mais informações sobre especificações técnicas, 
-              disponibilidade e condições especiais para revendedores.
-            </p>
-            
-            <Button asChild size="lg" className="bg-primary text-primary-foreground hover:bg-primary-glow shadow-electric text-sm sm:text-base lg:text-lg px-6 sm:px-8 py-4 sm:py-6 h-auto w-full sm:w-auto">
-              <a href="https://wa.me/5547997716947" target="_blank" rel="noopener noreferrer">
-                Ver catálogo completo
-              </a>
-            </Button>
-          </div>
+          
         </div>
       </div>
     </section>;

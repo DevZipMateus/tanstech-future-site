@@ -102,6 +102,11 @@ const ProductGallery = () => {
     name: "AUTOPROPELIDO MODELO MIN1000",
     image: "/assets/products/scooter-min1000.jpg",
     specifications: ["POTÊNCIA: 1000W", "BATERIA LÍTIO: 60V 12AH", "VELOCIDADE: ATÉ 32KM/H", "AUTONOMIA: 40 A 60KM", "BANCO: PARA 1 PESSOA", "CAPACIDADE: 150KG", "CARREGADOR: BIVOLT", "CNH: NÃO OBRIGATÓRIO", "CORES: BRANCA, PRETO, VERMELHO, MILITAR, INGLATERRA ETC"]
+  }, {
+    id: 21,
+    name: "AUTOPROPELIDO MODELO 007U",
+    image: "/assets/products/scooter-007u.jpg",
+    specifications: ["POTÊNCIA: 1000W", "BATERIA LÍTIO: 60V 20AH", "VELOCIDADE: ATÉ 32KM/H", "AUTONOMIA: 40 A 60KM", "BANCO: PARA 2 PESSOAS", "CAPACIDADE: 200KG", "CARREGADOR: BIVOLT", "CNH: NÃO OBRIGATÓRIO"]
   }];
   return <section id="products" className="section-padding bg-background">
       <div className="container mx-auto container-padding">

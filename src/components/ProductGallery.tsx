@@ -55,7 +55,7 @@ const ProductGallery = () => {
   }, {
     id: 9,
     name: "CICLOMOTOR MODELO CHOPPER",
-    image: "/assets/products/chopper-4000w.jpg",
+    image: "/assets/products/chopper-4000w-new.jpg",
     category: "grande",
     specifications: ["POTÊNCIA: 4.000W", "CONTROLE VELOCIDADE 1,2,3 (RÉ)", "BATERIA LÍTIO: 42AH", "VELOC. LIMITE: 90KM/H", "AUTONOMIA: ATÉ 75KM (POR CARGA)", "CONEXÃO: BLUETOOTH", "IGNIÇÃO: ALARME E CHAVES CODIFICADAS", "BANCO EXTRA (OPCIONAL)", "CORES: VERMELHO, AZUL E PRETO"]
   }, {

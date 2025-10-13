@@ -115,7 +115,7 @@ const ProductGallery = () => {
   }, {
     id: 19,
     name: "TRICICLO MODELO TCTC",
-    image: "/assets/products/triciclo-tctc.jpg",
+    image: "/assets/products/triciclo-tctc-new.jpg",
     category: "grande",
     specifications: ["MOTOR: 800W", "BATERIA LÍTIO: 64V 20AH REMOVÍVEL", "FREIOS: HIDRÁULICOS", "AUTONOMIA: 45KM", "VELOCIDADE: ATÉ 32KM/H", "PARABRISA/LIMPADOR (VIDRO TEMPERADO)", "LARGURA: 0,70CM (PERMITIDO)", "CORES: PRETO, CREME"]
   }, {

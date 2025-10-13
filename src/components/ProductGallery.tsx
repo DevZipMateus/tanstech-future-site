@@ -79,7 +79,7 @@ const ProductGallery = () => {
   }, {
     id: 13,
     name: "TRICICLO FAMILY",
-    image: "/assets/products/triciclo-family.jpg",
+    image: "/assets/products/triciclo-family-new.jpg",
     category: "grande",
     specifications: ["POTÊNCIA: 1000W", "CARGA MÁXIMO: 250 KG", "CONTROLE VELOCIDADE 1,2,3 E RÉ", "BATERIA LÍTIO: 20AH", "VELOC. LIMITE: 32KM/H", "AUTONOMIA: ATÉ 65KM (POR CARGA)", "CONEXÃO: BLUETOOTH", "IGNIÇÃO: NFC, ALARME", "ASSENTOS: 1, 2 E 3 OPÇÕES", "CORES: BRANCO, VERMELHO, CINZA, PRETO ETC"]
   }, {

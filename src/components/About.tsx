@@ -35,7 +35,7 @@ const About = () => {
               Sobre a Tanstech
             </h2>
             <p className="text-base sm:text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed px-4">
-              Somos especialistas em importação e distribuição de produtos para mobilidade elétrica. 
+              Somos especialistas em importação e distribuição de produtos para mobilidade elétrica desde 2005. 
               Nosso ecossistema trabalha para levar aos lojistas modelos modernos de patinetes, 
               bikes e scooters elétricas com rapidez e segurança.
             </p>

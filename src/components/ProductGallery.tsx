@@ -145,7 +145,7 @@ const ProductGallery = () => {
   }, {
     id: 24,
     name: "AUTOPROPELIDO MODELO U008",
-    image: "/assets/products/scooter-u008.jpg",
+    image: "/assets/products/scooter-u008-new.jpg",
     category: "medio",
     specifications: ["POTÊNCIA: 1000W", "BATERIA LÍTIO: 60V 20AH", "VELOCIDADE: ATÉ 32KM/H", "AUTONOMIA: 40 A 60KM", "BANCO: PARA 2 PESSOAS", "CAPACIDADE: 200KG", "CARREGADOR: BIVOLT", "CNH: NÃO OBRIGATÓRIO"]
   }];

@@ -61,7 +61,7 @@ const ProductGallery = () => {
   }, {
     id: 10,
     name: "PATINETE ELÉTRICO 350W",
-    image: "/assets/products/patinete-350w.jpg",
+    image: "/assets/products/patinete-350w-new.jpg",
     category: "pequeno",
     specifications: ["POTÊNCIA: 350W", "BATERIA LÍTIO: 8AH", "VELOCIDADE MÁXIMA: 32KM/H", "AUTONOMIA: ATÉ 30KM", "PNEUS: CALIBRAGEM", "BOLSA (OPCIONAL)"]
   }, {

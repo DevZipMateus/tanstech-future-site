@@ -97,7 +97,7 @@ const ProductGallery = () => {
   }, {
     id: 16,
     name: "AUTOPROPELIDO MODELO JET 1000",
-    image: "/assets/products/scooter-jet-1000.jpg",
+    image: "/assets/products/scooter-jet-1000-new.jpg",
     category: "medio",
     specifications: ["POTÊNCIA: 1000W", "BATERIA LÍTIO: 60V 20AH", "VELOCIDADE MÁXIMA: ATÉ 32KM/H", "AUTONOMIA: DE 40 A 60KM", "BANCO: PARA 2 PESSOAS", "CAPACIDADE: 150KG", "CARREGADOR: BIVOLT", "CNH: NÃO OBRIGATÓRIO"]
   }, {

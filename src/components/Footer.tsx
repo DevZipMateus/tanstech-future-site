@@ -104,7 +104,7 @@ const Footer = () => {
               © {new Date().getFullYear()} Tanstech. Todos os direitos reservados.
             </p>
             <p className="text-primary-foreground/60 text-xs sm:text-sm">
-              CNPJ: 022.618.829-98
+              CNPJ: 07.465.963/0001-00
             </p>
           </div>
         </div>

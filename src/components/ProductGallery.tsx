@@ -91,7 +91,7 @@ const ProductGallery = () => {
   }, {
     id: 15,
     name: "AUTOPROPELIDO MODELO X12S",
-    image: "/assets/products/scooter-x12s.jpg",
+    image: "/assets/products/scooter-x12s-new.jpg",
     category: "medio",
     specifications: ["POTÊNCIA: 1000W (RÉ)", "BATERIA LÍTIO: 20AH REMOVÍVEL", "VELOCIDADE MÁXIMA: 32KM/H", "AUTONOMIA: ATÉ 60KM", "FREIO DISCO DIANTEIRO E HIDRÁULICO TRASEIRO", "BANCO DUPLO COM ENCOSTO", "CARGA MÁXIMA: 200KG", "SETAS E FAROL EM LED", "CARREGADOR BIVOLT", "RECARGA: 5 HORAS", "PAINEL DIGITAL LED", "CONEXÃO: BLUETOOTH", "IGNIÇÃO: NFC, ALARME ANTI-FURTO", "AMORTECEDOR", "NÃO EXIGE CNH E EMPLACAMENTO*", "RESISTENTE À ÁGUA IP65"]
   }, {

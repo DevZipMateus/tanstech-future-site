@@ -37,11 +37,11 @@ const Footer = () => {
                 <span className="break-all">(47) 99771-6947</span>
               </a>
               <a
-                href="mailto:alexandre.sales1808@gmail.com"
+                href="mailto:comercial@tanstech.com.br"
                 className="flex items-center text-primary-foreground/80 hover:text-primary-foreground transition-colors text-sm sm:text-base"
               >
                 <Mail size={14} className="mr-2 sm:mr-3 flex-shrink-0" />
-                <span className="break-all">alexandre.sales1808@gmail.com</span>
+                <span className="break-all">comercial@tanstech.com.br</span>
               </a>
               <div className="flex items-center text-primary-foreground/80 text-sm sm:text-base">
                 <MapPin size={14} className="mr-2 sm:mr-3 flex-shrink-0" />

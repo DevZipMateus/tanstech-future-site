@@ -14,8 +14,8 @@ const Contact = () => {
     {
       icon: Mail,
       title: "E-mail",
-      info: "alexandre.sales1808@gmail.com",
-      link: "mailto:alexandre.sales1808@gmail.com",
+      info: "comercial@tanstech.com.br",
+      link: "mailto:comercial@tanstech.com.br",
       description: "Envie sua mensagem"
     },
     {
@@ -130,7 +130,7 @@ const Contact = () => {
                 size="lg"
                 className="bg-transparent border-white/60 text-white hover:bg-white/15 hover:border-white/80 backdrop-blur-sm text-sm sm:text-base md:text-lg px-6 sm:px-8 py-4 sm:py-6 h-auto w-full sm:w-auto"
               >
-                <a href="mailto:alexandre.sales1808@gmail.com">
+                <a href="mailto:comercial@tanstech.com.br">
                   <Mail className="mr-2 w-4 h-4 sm:w-5 sm:h-5" />
                   Enviar e-mail
                 </a>

@@ -121,7 +121,7 @@ const ProductGallery = () => {
   }, {
     id: 20,
     name: "AUTOPROPELIDO MODELO MIN1000",
-    image: "/assets/products/scooter-min1000.jpg",
+    image: "/assets/products/scooter-min1000-new.jpg",
     category: "medio",
     specifications: ["POTÊNCIA: 1000W", "BATERIA LÍTIO: 60V 12AH", "VELOCIDADE: ATÉ 32KM/H", "AUTONOMIA: 40 A 60KM", "BANCO: PARA 1 PESSOA", "CAPACIDADE: 150KG", "CARREGADOR: BIVOLT", "CNH: NÃO OBRIGATÓRIO", "CORES: BRANCA, PRETO, VERMELHO, MILITAR, INGLATERRA ETC"]
   }, {

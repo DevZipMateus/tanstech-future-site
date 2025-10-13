@@ -85,7 +85,7 @@ const ProductGallery = () => {
   }, {
     id: 14,
     name: "AUTOPROPELIDO MODELO SWD6",
-    image: "/assets/products/autopropelido-swd6.jpg",
+    image: "/assets/products/autopropelido-swd6-new.jpg",
     category: "medio",
     specifications: ["POTÊNCIA: 1000W", "CONTROLE VELOCIDADE 1,2,3", "BATERIA LÍTIO: 20AH", "VELOC. LIMITE: 32KM/H", "AUTONOMIA: ATÉ 55KM (POR CARGA)", "CONEXÃO: BLUETOOTH", "IGNIÇÃO: NFC, ALARME", "CORES: BRANCO, VERMELHO, CINZA, PRETO"]
   }, {

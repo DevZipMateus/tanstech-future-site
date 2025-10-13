@@ -109,7 +109,7 @@ const ProductGallery = () => {
   }, {
     id: 18,
     name: "AUTOPROPELIDO MODELO WD3-S",
-    image: "/assets/products/scooter-wd3s.jpg",
+    image: "/assets/products/scooter-wd3s-new.jpg",
     category: "medio",
     specifications: ["MOTOR: 1000W", "BATERIA LÍTIO: 60V 21AH", "ASSENTO AMPLIADO", "EQUIPADO COM NFC E BLUETOOTH", "FREIO DIANTEIRO: DISCO HIDRÁULICO", "OPÇÃO DE BAÚ TRASEIRO", "CORES: PRETO, BRANCO, VERDE, CINZA"]
   }, {

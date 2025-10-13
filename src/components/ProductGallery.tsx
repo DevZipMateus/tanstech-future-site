@@ -13,7 +13,7 @@ const ProductGallery = () => {
   }, {
     id: 2,
     name: "AUTOPROPELIDO MODELO A3",
-    image: "/assets/products/autopropelido-a3.jpg",
+    image: "/assets/products/autopropelido-a3-new.jpg",
     category: "medio",
     specifications: ["POTÊNCIA: 1000W", "CONTROLE VELOCIDADE 1,2,3 (RÉ)", "BATERIA LÍTIO: 20AH", "VELOC. LIMITE: 32KM/H", "AUTONOMIA: ATÉ 55KM (POR CARGA)", "CONEXÃO: BLUETOOTH", "IGNIÇÃO: NFC, ALARME", "PORTA OBJETOS", "BAU (ITEM DE SÉRIE)", "CORES: BRANCO, CINZA E PRETO"]
   }, {

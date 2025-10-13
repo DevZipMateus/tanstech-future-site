@@ -133,7 +133,7 @@ const ProductGallery = () => {
   }, {
     id: 22,
     name: "AUTOPROPELIDO MODELO VESPHA RETRO",
-    image: "/assets/products/scooter-vespha-retro.jpg",
+    image: "/assets/products/scooter-vespha-retro-new.jpg",
     category: "medio",
     specifications: ["POTÊNCIA: 800W 64V", "BATERIA LÍTIO: 60V 20AH", "VELOCIDADE: ATÉ 32KM/H", "AUTONOMIA: 40 A 60KM", "BANCO: PARA 2 PESSOAS", "CAPACIDADE: 180KG", "CARREGADOR: BIVOLT", "CNH: NÃO OBRIGATÓRIO"]
   }, {

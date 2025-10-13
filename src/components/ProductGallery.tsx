@@ -103,7 +103,7 @@ const ProductGallery = () => {
   }, {
     id: 17,
     name: "AUTOPROPELIDO MODELO GTX1000",
-    image: "/assets/products/bike-gtx1000.jpg",
+    image: "/assets/products/bike-gtx1000-new.jpg",
     category: "medio",
     specifications: ["MOTOR: 1000W POWER", "BATERIA LÍTIO: 30A 48V", "PAINEL: NFC", "PNEU ARO: 24\"", "SUSPENSÃO: FLEX INTELIGENTE", "CÂMBIO: 07 VELOCIDADES (SHIMANO)", "VELOCIDADE: 32 KM/H", "AUTONOMIA: 90 A 100KM", "FREIOS: ZOOM SYSTEM ALTA PERFORMANCE"]
   }, {

@@ -37,7 +37,7 @@ const ProductGallery = () => {
   }, {
     id: 6,
     name: "AUTOPROPELIDO MODELO SP JOY",
-    image: "/assets/products/autopropelido-sp-joy.jpg",
+    image: "/assets/products/autopropelido-sp-joy-new.jpg",
     category: "medio",
     specifications: ["POTÊNCIA: 800W", "CONTROLE VELOCIDADE 1,2,3", "BATERIA LÍTIO: 20AH", "VELOC. LIMITE: 32KM/H", "AUTONOMIA: ATÉ 55KM (POR CARGA)", "CONEXÃO: BLUETOOTH", "IGNIÇÃO: NFC, ALARME", "PORTA OBJETOS", "CORES: BRANCO, VERMELHO, CINZA, PRETO"]
   }, {

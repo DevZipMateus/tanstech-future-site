@@ -139,7 +139,7 @@ const ProductGallery = () => {
   }, {
     id: 23,
     name: "TRICICLO MODELO EVEE FAMILY",
-    image: "/assets/products/triciclo-evee-family.jpg",
+    image: "/assets/products/triciclo-evee-family-new.jpg",
     category: "grande",
     specifications: ["POTÊNCIA: 1000W", "CARGA MÁXIMA: 250KG", "CONTROLE VELOCIDADE: 1,2,3 E RÉ", "BATERIA LÍTIO: 20AH", "VELOCIDADE LIMITE: 32KM/H", "AUTONOMIA: ATÉ 65KM (POR CARGA)", "CONEXÃO: BLUETOOTH", "IGNIÇÃO: NFC, ALARME", "ASSENTOS: 1, 2 E 3 OPÇÕES", "INVERSÃO DE ASSENTO + BAGAGEIRO", "CORES: BRANCO, PRETO"]
   }, {

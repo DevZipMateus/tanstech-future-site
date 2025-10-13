@@ -127,7 +127,7 @@ const ProductGallery = () => {
   }, {
     id: 21,
     name: "AUTOPROPELIDO MODELO 007U",
-    image: "/assets/products/scooter-007u.jpg",
+    image: "/assets/products/scooter-007u-new.jpg",
     category: "medio",
     specifications: ["POTÊNCIA: 1000W", "BATERIA LÍTIO: 60V 20AH", "VELOCIDADE: ATÉ 32KM/H", "AUTONOMIA: 40 A 60KM", "BANCO: PARA 2 PESSOAS", "CAPACIDADE: 200KG", "CARREGADOR: BIVOLT", "CNH: NÃO OBRIGATÓRIO"]
   }, {

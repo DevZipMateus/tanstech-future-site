@@ -154,6 +154,12 @@ const ProductGallery = () => {
     image: "/assets/products/city-scooter.jpg",
     category: "medio",
     specifications: ["MOTOR: 400W (ELÉTRICO)", "FAROL DE LED", "BATERIA ÁCIDO CHUMBO: 48V-12AH", "POSSUI ALARME", "PNEU: 2.50X14", "PAINEL DE INSTRUMENTOS", "SUSPENSÃO DIANTEIRA E TRASEIRA A TAMBOR", "DESCANSO CENTRAL E LATERAL", "MATERIAL: AÇO CARBONO", "VELOCIDADE MÁXIMA: 32KM/H", "AUTONOMIA: 20-30KM", "CARREGAMENTO: 6 A 8H", "CAPACIDADE MÁXIMA: 120KG", "BATERIA REMOVÍVEL"]
+  }, {
+    id: 26,
+    name: "JOY-S",
+    image: "/assets/products/joy-s-scooter.jpg",
+    category: "medio",
+    specifications: ["MOTOR: 500W", "FAROL DE LED", "BATERIA ÁCIDO CHUMBO: 48V+20A", "ALARME", "PNEU: 2.75X14", "PAINEL DE INSTRUMENTOS", "SUSPENSÃO DIANTEIRA E TRASEIRA COM AMORTECEDORES", "DESCANSO LATERAL E CENTRAL", "MATERIAL: AÇO CARBONO", "TAMANHO: 1,55X1,12X0,45CM", "CAPACIDADE MÁXIMA: 150KG"]
   }];
 
   const filterProducts = (category: string) => {

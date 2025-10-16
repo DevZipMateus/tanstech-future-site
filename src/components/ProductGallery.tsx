@@ -148,6 +148,12 @@ const ProductGallery = () => {
     image: "/assets/products/scooter-u008-new.jpg",
     category: "medio",
     specifications: ["POTÊNCIA: 1000W", "BATERIA LÍTIO: 60V 20AH", "VELOCIDADE: ATÉ 32KM/H", "AUTONOMIA: 40 A 60KM", "BANCO: PARA 2 PESSOAS", "CAPACIDADE: 200KG", "CARREGADOR: BIVOLT", "CNH: NÃO OBRIGATÓRIO"]
+  }, {
+    id: 25,
+    name: "CITY",
+    image: "/assets/products/city-scooter.jpg",
+    category: "medio",
+    specifications: ["MOTOR: 400W (ELÉTRICO)", "FAROL DE LED", "BATERIA ÁCIDO CHUMBO: 48V-12AH", "POSSUI ALARME", "PNEU: 2.50X14", "PAINEL DE INSTRUMENTOS", "SUSPENSÃO DIANTEIRA E TRASEIRA A TAMBOR", "DESCANSO CENTRAL E LATERAL", "MATERIAL: AÇO CARBONO", "VELOCIDADE MÁXIMA: 32KM/H", "AUTONOMIA: 20-30KM", "CARREGAMENTO: 6 A 8H", "CAPACIDADE MÁXIMA: 120KG", "BATERIA REMOVÍVEL"]
   }];
 
   const filterProducts = (category: string) => {

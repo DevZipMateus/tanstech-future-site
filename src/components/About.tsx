@@ -87,7 +87,7 @@ const About = () => {
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6 px-4 sm:px-0">
             <Card className="p-4 sm:p-6 text-center bg-card/30 backdrop-blur-sm border-border/50">
               <h4 className="text-sm sm:text-base font-orbitron font-bold text-primary mb-2">Suporte</h4>
-              <p className="text-xs sm:text-sm text-muted-foreground">Suporte ao cliente 24hrs</p>
+              <p className="text-xs sm:text-sm text-muted-foreground">Atendimento em horário comercial, com resposta em até 24h</p>
             </Card>
             
             <Card className="p-4 sm:p-6 text-center bg-card/30 backdrop-blur-sm border-border/50">

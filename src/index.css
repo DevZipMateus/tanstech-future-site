@@ -156,7 +156,7 @@ All colors MUST be HSL. Based on brand green/teal with electric energy aesthetic
   /* WhatsApp button positioning - Always visible */
   .whatsapp-float {
     position: fixed;
-    bottom:1rem;
+    bottom: 5rem;
     right: 1rem;
     z-index: 50;
     width: 50px;

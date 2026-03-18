@@ -58,32 +58,32 @@ const Services = () => {
           </div>
 
           {/* Services Grid */}
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8 mb-12 sm:mb-16 px-4 sm:px-0">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 mb-12 sm:mb-16 px-4 sm:px-0">
             {services.map((service, index) => {
               const Icon = service.icon;
               return (
                 <Card
                   key={index}
-                  className="p-6 sm:p-8 card-hover bg-card border-border/50 text-center animate-fade-in"
+                  className="p-4 sm:p-6 card-hover bg-card border-border/50 text-center animate-fade-in"
                   style={{ animationDelay: `${index * 0.1}s` }}
                 >
                   <div className="text-center">
-                    <div className="bg-primary/20 w-14 h-14 sm:w-16 sm:h-16 rounded-xl flex items-center justify-center mx-auto mb-4 sm:mb-6 transition-colors">
-                      <Icon className="w-6 h-6 sm:w-8 sm:h-8 text-primary" />
+                    <div className="bg-primary/20 w-11 h-11 sm:w-14 sm:h-14 rounded-lg flex items-center justify-center mx-auto mb-3 sm:mb-4 transition-colors">
+                      <Icon className="w-5 h-5 sm:w-6 sm:h-6 text-primary" />
                     </div>
                     
-                    <h3 className="text-lg sm:text-xl font-orbitron font-semibold text-foreground mb-3 sm:mb-4">
+                    <h3 className="text-base sm:text-lg font-orbitron font-semibold text-foreground mb-2 sm:mb-3">
                       {service.title}
                     </h3>
                     
-                    <p className="text-sm sm:text-base text-muted-foreground leading-relaxed mb-4 sm:mb-6">
+                    <p className="text-xs sm:text-sm text-muted-foreground leading-relaxed mb-3 sm:mb-4">
                       {service.description}
                     </p>
 
-                    <ul className="text-left space-y-2 mb-4 sm:mb-6">
+                    <ul className="text-left space-y-1 sm:space-y-1.5 mb-3 sm:mb-4">
                       {service.features.map((feature, idx) => (
-                        <li key={idx} className="flex items-start text-xs sm:text-sm text-muted-foreground">
-                          <div className="w-1.5 h-1.5 bg-primary rounded-full mr-3 flex-shrink-0 mt-2"></div>
+                        <li key={idx} className="flex items-center text-xs sm:text-sm text-muted-foreground">
+                          <div className="w-1 h-1 sm:w-1.5 sm:h-1.5 bg-primary rounded-full mr-2 flex-shrink-0"></div>
                           <span>{feature}</span>
                         </li>
                       ))}
@@ -107,7 +107,7 @@ const Services = () => {
             <Button
               asChild
               size="lg"
-              className="bg-white text-primary hover:bg-white/90 hover:text-primary border border-white backdrop-blur-sm text-sm sm:text-base md:text-lg px-6 sm:px-8 py-4 sm:py-6 h-auto"
+              className="bg-foreground text-background hover:bg-foreground/90 border-none text-sm sm:text-base md:text-lg px-6 sm:px-8 py-4 sm:py-6 h-auto font-bold shadow-lg"
             >
               <a href="https://wa.me/5547997716947" target="_blank" rel="noopener noreferrer">
                 Fale conosco no WhatsApp

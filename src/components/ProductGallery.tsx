@@ -130,6 +130,12 @@ const ProductGallery = () => {
     image: "/assets/products/quadriciclo-lazio.jpg",
     category: "grande",
     specifications: ["MOTOR: 1000W BRUSHLESS", "BATERIA: 60V 22AH CHUMBO-ÁCIDO", "VELOCIDADE MÁXIMA: 15 A 25KM/H", "CAPACIDADE DE CARGA: 130KG", "COR: CEREJA-PRATA", "BAÚ TRASEIRO (ITEM DE SÉRIE)", "ESTRUTURA DE ALTA ESTABILIDADE"]
+  }, {
+    id: 33,
+    name: "AUTOPROPELIDO MODELO X13-S",
+    image: "/assets/products/autopropelido-x13s.jpg",
+    category: "medio",
+    specifications: ["MOTOR: 1000W (TORQUE 3000W)", "BATERIA: 21AH (MARCADOR DIGITAL)", "CONTROLADORA: 45A", "MARCHA RÉ", "USB PARA CELULAR", "CONEXÃO: BLUETOOTH", "CAPACIDADE MÁXIMA: 200KG", "CORES: UK PRETO, UK AZUL, CARBONO, CEREJA, BRANCA, PRETO"]
   }];
 
   const filterProducts = (category: string) => {

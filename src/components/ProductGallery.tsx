@@ -100,6 +100,12 @@ const ProductGallery = () => {
     image: "/assets/products/stylle-e73.jpg",
     category: "medio",
     specifications: ["MOTOR: BRUSHLESS 800W", "BATERIA: 18AH", "FREIOS: HIDRÁULICOS", "CÂMBIO: 5 MARCHAS", "PEDAL ASSISTIDO (5 VEL)", "SUSPENSÃO: HIDRÁULICA", "AMORTECEDORES", "PAINEL: NFC CARD", "SETAS"]
+  }, {
+    id: 28,
+    name: "POP 500W",
+    image: "/assets/products/pop-500w.jpg",
+    category: "pequeno",
+    specifications: ["MOTOR: 500W (TORQUE 800W)", "BATERIA LÍTIO: 20AH 48V REMOVÍVEL", "VELOCIDADE: 32KM/H", "AUTONOMIA: 55KM", "SUSPENSÃO: HIDRÁULICA", "AROS EM ALUMÍNIO", "FREIOS: TAMBOR", "SUPORTE PARA CELULAR", "CORES: BRANCO/AZUL, BRANCO/CINZA, BRANCO/VERDE"]
   }];
 
   const filterProducts = (category: string) => {

@@ -124,6 +124,12 @@ const ProductGallery = () => {
     image: "/assets/products/smartbike.jpg",
     category: "medio",
     specifications: ["MOTOR: 1000W 60V", "BATERIA LÍTIO: 24AH", "PEDAL ASSISTIDO", "FREIO: HIDRÁULICO", "PAINEL: NFC, SETAS", "VELOCIDADE MÁXIMA: 50KM/H", "CORES: PRETO, CINZA, VERMELHO, BRANCO"]
+  }, {
+    id: 32,
+    name: "QUADRICICLO LAZIO",
+    image: "/assets/products/quadriciclo-lazio.jpg",
+    category: "grande",
+    specifications: ["MOTOR: 1000W BRUSHLESS", "BATERIA: 60V 22AH CHUMBO-ÁCIDO", "VELOCIDADE MÁXIMA: 15 A 25KM/H", "CAPACIDADE DE CARGA: 130KG", "COR: CEREJA-PRATA", "BAÚ TRASEIRO (ITEM DE SÉRIE)", "ESTRUTURA DE ALTA ESTABILIDADE"]
   }];
 
   const filterProducts = (category: string) => {

@@ -11,47 +11,11 @@ const ProductGallery = () => {
     category: "medio",
     specifications: ["POTÊNCIA: 1000W", "CONTROLE VELOCIDADE 1,2,3 (RÉ)", "BATERIA LÍTIO: 20AH", "VELOC. LIMITE: 32KM/H", "AUTONOMIA: ATÉ 55KM (POR CARGA)", "CONEXÃO: BLUETOOTH", "IGNIÇÃO: NFC, ALARME", "PORTA OBJETOS", "BAU (ITEM DE SÉRIE)", "CORES: BRANCO, VERMELHO, CINZA, ROXO E PRETO"]
   }, {
-    id: 2,
-    name: "AUTOPROPELIDO MODELO A3",
-    image: "/assets/products/autopropelido-a3-new.jpg",
-    category: "medio",
-    specifications: ["POTÊNCIA: 1000W", "CONTROLE VELOCIDADE 1,2,3 (RÉ)", "BATERIA LÍTIO: 20AH", "VELOC. LIMITE: 32KM/H", "AUTONOMIA: ATÉ 55KM (POR CARGA)", "CONEXÃO: BLUETOOTH", "IGNIÇÃO: NFC, ALARME", "PORTA OBJETOS", "BAU (ITEM DE SÉRIE)", "CORES: BRANCO, CINZA E PRETO"]
-  }, {
-    id: 3,
-    name: "AUTOPROPELIDO MODELO X13",
-    image: "/assets/products/autopropelido-x13-new.jpg",
-    category: "medio",
-    specifications: ["POTÊNCIA: 1000W", "CONTROLE VELOCIDADE 1,2,3 E RÉ", "BATERIA LÍTIO: 24AH", "VELOC. LIMITE: 32KM/H", "AUTONOMIA: ATÉ 55KM (POR CARGA)", "CONEXÃO: BLUETOOTH", "IGNIÇÃO: NFC, ALARME", "CORES: BRANCO, INGLATERRA, VERMELHO, CINZA, PRETO, CARBONO, ETC"]
-  }, {
     id: 4,
     name: "AUTOPROPELIDO MODELO SWD3",
     image: "/assets/products/autopropelido-swd3.jpg",
     category: "medio",
     specifications: ["POTÊNCIA: 1000W", "CONTROLE VELOCIDADE 1,2,3", "BATERIA LÍTIO: 20AH", "VELOC. LIMITE: 32KM/H", "AUTONOMIA: ATÉ 55KM (POR CARGA)", "CONEXÃO: BLUETOOTH", "IGNIÇÃO: NFC, ALARME", "PORTA OBJETOS", "CORES: BRANCO, VERMELHO, CINZA E PRETO"]
-  }, {
-    id: 5,
-    name: "AUTOPROPELIDO MODELO SWD4",
-    image: "/assets/products/autopropelido-swd4.jpg",
-    category: "medio",
-    specifications: ["POTÊNCIA: 1000W", "CONTROLE VELOCIDADE 1,2,3", "BATERIA LÍTIO: 20AH", "VELOC. LIMITE: 32KM/H", "AUTONOMIA: ATÉ 55KM (POR CARGA)", "CONEXÃO: BLUETOOTH", "IGNIÇÃO: NFC, ALARME", "PORTA OBJETOS", "CORES: BRANCO, CINZA, PRETO"]
-  }, {
-    id: 6,
-    name: "AUTOPROPELIDO MODELO SP JOY",
-    image: "/assets/products/autopropelido-sp-joy-new.jpg",
-    category: "medio",
-    specifications: ["POTÊNCIA: 800W", "CONTROLE VELOCIDADE 1,2,3", "BATERIA LÍTIO: 20AH", "VELOC. LIMITE: 32KM/H", "AUTONOMIA: ATÉ 55KM (POR CARGA)", "CONEXÃO: BLUETOOTH", "IGNIÇÃO: NFC, ALARME", "PORTA OBJETOS", "CORES: BRANCO, VERMELHO, CINZA, PRETO"]
-  }, {
-    id: 7,
-    name: "AUTOPROPELIDO MODELO SP8",
-    image: "/assets/products/autopropelido-sp8.jpg",
-    category: "medio",
-    specifications: ["POTÊNCIA: 1000W", "CONTROLE VELOCIDADE 1,2,3 (RÉ)", "BATERIA LÍTIO: 20AH", "VELOC. LIMITE: 32KM/H", "AUTONOMIA: ATÉ 55KM (POR CARGA)", "CONEXÃO: BLUETOOTH", "IGNIÇÃO: NFC, ALARME", "PORTA OBJETOS", "BAU (ITEM DE SÉRIE)", "CORES: BRANCO, VERMELHO, CINZA E PRETO"]
-  }, {
-    id: 8,
-    name: "AUTOPROPELIDO MODELO SE6",
-    image: "/assets/products/autopropelido-se6-new.jpg",
-    category: "medio",
-    specifications: ["POTÊNCIA: 1000W", "CONTROLE VELOCIDADE 1,2,3", "BATERIA LÍTIO: 20AH", "VELOC. LIMITE: 32KM/H", "AUTONOMIA: ATÉ 55KM (POR CARGA)", "CONEXÃO: BLUETOOTH", "IGNIÇÃO: NFC, ALARME", "LUZES EM LED", "PORTA OBJETOS", "BAU (ITEM DE SÉRIE)", "CORES: BRANCO, VERMELHO, CINZA, E PRETO"]
   }, {
     id: 9,
     name: "CICLOMOTOR MODELO CHOPPER",
@@ -70,24 +34,6 @@ const ProductGallery = () => {
     image: "/assets/products/bike-sv8.jpg",
     category: "medio",
     specifications: ["POTÊNCIA: 1000W", "CONTROLE VELOCIDADE 1,2,3", "BATERIA LÍTIO: 15AH", "PEDAL ASSISTIDO", "VELOC. LIMITE: 32KM/H", "AUTONOMIA: ATÉ 75KM (POR CARGA)", "IGNIÇÃO: NFC, ALARME", "CORES BANCO: PRETO, MARROM"]
-  }, {
-    id: 12,
-    name: "AUTOPROPELIDO MODELO SWD5",
-    image: "/assets/products/autopropelido-swd5-new.jpg",
-    category: "medio",
-    specifications: ["POTÊNCIA: 1000W", "CONTROLE VELOCIDADE 1,2,3", "BATERIA LÍTIO: 20AH", "VELOC. LIMITE: 32KM/H", "AUTONOMIA: ATÉ 55KM (POR CARGA)", "CONEXÃO: BLUETOOTH", "IGNIÇÃO: NFC, ALARME", "PORTA OBJETOS", "CORES: BRANCO, CINZA, PRETO E VERMELHO"]
-  }, {
-    id: 13,
-    name: "TRICICLO FAMILY",
-    image: "/assets/products/triciclo-family-new.jpg",
-    category: "grande",
-    specifications: ["POTÊNCIA: 1000W", "CARGA MÁXIMO: 250 KG", "CONTROLE VELOCIDADE 1,2,3 E RÉ", "BATERIA LÍTIO: 20AH", "VELOC. LIMITE: 32KM/H", "AUTONOMIA: ATÉ 65KM (POR CARGA)", "CONEXÃO: BLUETOOTH", "IGNIÇÃO: NFC, ALARME", "ASSENTOS: 1, 2 E 3 OPÇÕES", "CORES: BRANCO, VERMELHO, CINZA, PRETO ETC"]
-  }, {
-    id: 14,
-    name: "AUTOPROPELIDO MODELO SWD6",
-    image: "/assets/products/autopropelido-swd6-new.jpg",
-    category: "medio",
-    specifications: ["POTÊNCIA: 1000W", "CONTROLE VELOCIDADE 1,2,3", "BATERIA LÍTIO: 20AH", "VELOC. LIMITE: 32KM/H", "AUTONOMIA: ATÉ 55KM (POR CARGA)", "CONEXÃO: BLUETOOTH", "IGNIÇÃO: NFC, ALARME", "CORES: BRANCO, VERMELHO, CINZA, PRETO"]
   }, {
     id: 15,
     name: "AUTOPROPELIDO MODELO X12S",
@@ -131,23 +77,11 @@ const ProductGallery = () => {
     category: "medio",
     specifications: ["POTÊNCIA: 1000W", "BATERIA LÍTIO: 60V 20AH", "VELOCIDADE: ATÉ 32KM/H", "AUTONOMIA: 40 A 60KM", "BANCO: PARA 2 PESSOAS", "CAPACIDADE: 200KG", "CARREGADOR: BIVOLT", "CNH: NÃO OBRIGATÓRIO"]
   }, {
-    id: 22,
-    name: "AUTOPROPELIDO MODELO VESPHA RETRO",
-    image: "/assets/products/scooter-vespha-retro-new.jpg",
-    category: "medio",
-    specifications: ["POTÊNCIA: 800W 64V", "BATERIA LÍTIO: 60V 20AH", "VELOCIDADE: ATÉ 32KM/H", "AUTONOMIA: 40 A 60KM", "BANCO: PARA 2 PESSOAS", "CAPACIDADE: 180KG", "CARREGADOR: BIVOLT", "CNH: NÃO OBRIGATÓRIO"]
-  }, {
     id: 23,
     name: "TRICICLO MODELO EVEE FAMILY",
     image: "/assets/products/triciclo-evee-family-new.jpg",
     category: "grande",
     specifications: ["POTÊNCIA: 1000W", "CARGA MÁXIMA: 250KG", "CONTROLE VELOCIDADE: 1,2,3 E RÉ", "BATERIA LÍTIO: 20AH", "VELOCIDADE LIMITE: 32KM/H", "AUTONOMIA: ATÉ 65KM (POR CARGA)", "CONEXÃO: BLUETOOTH", "IGNIÇÃO: NFC, ALARME", "ASSENTOS: 1, 2 E 3 OPÇÕES", "INVERSÃO DE ASSENTO + BAGAGEIRO", "CORES: BRANCO, PRETO"]
-  }, {
-    id: 24,
-    name: "AUTOPROPELIDO MODELO U008",
-    image: "/assets/products/scooter-u008-new.jpg",
-    category: "medio",
-    specifications: ["POTÊNCIA: 1000W", "BATERIA LÍTIO: 60V 20AH", "VELOCIDADE: ATÉ 32KM/H", "AUTONOMIA: 40 A 60KM", "BANCO: PARA 2 PESSOAS", "CAPACIDADE: 200KG", "CARREGADOR: BIVOLT", "CNH: NÃO OBRIGATÓRIO"]
   }, {
     id: 25,
     name: "CITY",

@@ -94,6 +94,12 @@ const ProductGallery = () => {
     image: "/assets/products/joy-s-scooter.jpg",
     category: "pequeno",
     specifications: ["MOTOR: 500W", "FAROL DE LED", "BATERIA ÁCIDO CHUMBO: 48V+20A", "ALARME", "PNEU: 2.75X14", "PAINEL DE INSTRUMENTOS", "SUSPENSÃO DIANTEIRA E TRASEIRA COM AMORTECEDORES", "DESCANSO LATERAL E CENTRAL", "MATERIAL: AÇO CARBONO", "TAMANHO: 1,55X1,12X0,45CM", "CAPACIDADE MÁXIMA: 150KG"]
+  }, {
+    id: 27,
+    name: "STYLLE E73",
+    image: "/assets/products/stylle-e73.jpg",
+    category: "medio",
+    specifications: ["MOTOR: BRUSHLESS 800W", "BATERIA: 18AH", "FREIOS: HIDRÁULICOS", "CÂMBIO: 5 MARCHAS", "PEDAL ASSISTIDO (5 VEL)", "SUSPENSÃO: HIDRÁULICA", "AMORTECEDORES", "PAINEL: NFC CARD", "SETAS"]
   }];
 
   const filterProducts = (category: string) => {

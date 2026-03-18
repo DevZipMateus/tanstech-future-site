@@ -77,23 +77,11 @@ const ProductGallery = () => {
     category: "medio",
     specifications: ["POTÊNCIA: 1000W", "BATERIA LÍTIO: 60V 20AH", "VELOCIDADE: ATÉ 32KM/H", "AUTONOMIA: 40 A 60KM", "BANCO: PARA 2 PESSOAS", "CAPACIDADE: 200KG", "CARREGADOR: BIVOLT", "CNH: NÃO OBRIGATÓRIO"]
   }, {
-    id: 22,
-    name: "AUTOPROPELIDO MODELO VESPHA RETRO",
-    image: "/assets/products/scooter-vespha-retro-new.jpg",
-    category: "medio",
-    specifications: ["POTÊNCIA: 800W 64V", "BATERIA LÍTIO: 60V 20AH", "VELOCIDADE: ATÉ 32KM/H", "AUTONOMIA: 40 A 60KM", "BANCO: PARA 2 PESSOAS", "CAPACIDADE: 180KG", "CARREGADOR: BIVOLT", "CNH: NÃO OBRIGATÓRIO"]
-  }, {
     id: 23,
     name: "TRICICLO MODELO EVEE FAMILY",
     image: "/assets/products/triciclo-evee-family-new.jpg",
     category: "grande",
     specifications: ["POTÊNCIA: 1000W", "CARGA MÁXIMA: 250KG", "CONTROLE VELOCIDADE: 1,2,3 E RÉ", "BATERIA LÍTIO: 20AH", "VELOCIDADE LIMITE: 32KM/H", "AUTONOMIA: ATÉ 65KM (POR CARGA)", "CONEXÃO: BLUETOOTH", "IGNIÇÃO: NFC, ALARME", "ASSENTOS: 1, 2 E 3 OPÇÕES", "INVERSÃO DE ASSENTO + BAGAGEIRO", "CORES: BRANCO, PRETO"]
-  }, {
-    id: 24,
-    name: "AUTOPROPELIDO MODELO U008",
-    image: "/assets/products/scooter-u008-new.jpg",
-    category: "medio",
-    specifications: ["POTÊNCIA: 1000W", "BATERIA LÍTIO: 60V 20AH", "VELOCIDADE: ATÉ 32KM/H", "AUTONOMIA: 40 A 60KM", "BANCO: PARA 2 PESSOAS", "CAPACIDADE: 200KG", "CARREGADOR: BIVOLT", "CNH: NÃO OBRIGATÓRIO"]
   }, {
     id: 25,
     name: "CITY",

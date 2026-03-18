@@ -106,6 +106,12 @@ const ProductGallery = () => {
     image: "/assets/products/pop-500w.jpg",
     category: "pequeno",
     specifications: ["MOTOR: 500W (TORQUE 800W)", "BATERIA LÍTIO: 20AH 48V REMOVÍVEL", "VELOCIDADE: 32KM/H", "AUTONOMIA: 55KM", "SUSPENSÃO: HIDRÁULICA", "AROS EM ALUMÍNIO", "FREIOS: TAMBOR", "SUPORTE PARA CELULAR", "CORES: BRANCO/AZUL, BRANCO/CINZA, BRANCO/VERDE"]
+  }, {
+    id: 29,
+    name: "TRICICLO FAMILY",
+    image: "/assets/products/triciclo-family-novo.jpg",
+    category: "grande",
+    specifications: ["MOTOR: 650W", "BATERIA: CHUMBO 48V 20AH", "RECARGA: 6 A 8 HORAS", "QUADRO: AÇO", "AUTONOMIA: 40 A 45KM", "VELOCIDADE MÁXIMA: 32KM/H", "FREIOS: TAMBOR (DIANTEIRO E TRASEIROS)", "RODAS: ARO 10\"", "CAPACIDADE DE CARGA: ATÉ 185KG", "PAINEL DIGITAL COM NÍVEL DE BATERIA", "POSSUI ALARME"]
   }];
 
   const filterProducts = (category: string) => {

@@ -118,6 +118,12 @@ const ProductGallery = () => {
     image: "/assets/products/scooter-s3-plus.jpg",
     category: "medio",
     specifications: ["MOTOR: 1000W 60V", "BATERIA LÍTIO: 25AH", "MARCHA RÉ", "PAINEL: NFC", "PORTA OBJETOS", "SUSPENSÃO: HIDRÁULICA", "FREIOS: HIDRÁULICOS", "VELOCIDADE: 32KM/H", "AUTONOMIA: 60KM", "BAÚ INCLUSO", "CORES: VERMELHO, PRETO, CINZA, BRANCO, ROXO"]
+  }, {
+    id: 31,
+    name: "AUTOPROPELIDO MODELO SMARTBIKE",
+    image: "/assets/products/smartbike.jpg",
+    category: "medio",
+    specifications: ["MOTOR: 1000W 60V", "BATERIA LÍTIO: 24AH", "PEDAL ASSISTIDO", "FREIO: HIDRÁULICO", "PAINEL: NFC, SETAS", "VELOCIDADE MÁXIMA: 50KM/H", "CORES: PRETO, CINZA, VERMELHO, BRANCO"]
   }];
 
   const filterProducts = (category: string) => {

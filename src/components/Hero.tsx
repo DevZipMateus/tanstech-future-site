@@ -76,12 +76,12 @@ const Hero = () => {
           {/* Stats */}
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 sm:gap-6 md:gap-8 mt-12 sm:mt-16 animate-fade-in px-4" style={{animationDelay: '1s'}}>
             <div className="bg-white/5 backdrop-blur-sm rounded-xl p-4 sm:p-6 border border-white/10">
-              <div className="text-2xl sm:text-3xl font-orbitron font-bold text-white mb-2">100%</div>
-              <div className="text-sm sm:text-base text-white/80">Suporte completo</div>
+              <div className="text-2xl sm:text-3xl font-orbitron font-bold text-white mb-2">+20 anos</div>
+              <div className="text-sm sm:text-base text-white/80">No mercado desde 2005</div>
             </div>
             <div className="bg-white/5 backdrop-blur-sm rounded-xl p-4 sm:p-6 border border-white/10">
-              <div className="text-2xl sm:text-3xl font-orbitron font-bold text-white mb-2">24/7</div>
-              <div className="text-sm sm:text-base text-white/80">Consultoria disponível</div>
+              <div className="text-2xl sm:text-3xl font-orbitron font-bold text-white mb-2">100%</div>
+              <div className="text-sm sm:text-base text-white/80">Suporte completo</div>
             </div>
             <div className="bg-white/5 backdrop-blur-sm rounded-xl p-4 sm:p-6 border border-white/10">
               <div className="text-2xl sm:text-3xl font-orbitron font-bold text-white mb-2">∞</div>

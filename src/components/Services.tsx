@@ -107,7 +107,7 @@ const Services = () => {
             <Button
               asChild
               size="lg"
-              className="bg-white text-primary hover:bg-white/90 hover:text-primary border border-white backdrop-blur-sm text-sm sm:text-base md:text-lg px-6 sm:px-8 py-4 sm:py-6 h-auto"
+              className="bg-foreground text-background hover:bg-foreground/90 border-none text-sm sm:text-base md:text-lg px-6 sm:px-8 py-4 sm:py-6 h-auto font-bold shadow-lg"
             >
               <a href="https://wa.me/5547997716947" target="_blank" rel="noopener noreferrer">
                 Fale conosco no WhatsApp

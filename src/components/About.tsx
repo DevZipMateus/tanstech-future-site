@@ -70,7 +70,7 @@ const About = () => {
                       <Icon className="w-6 h-6 text-primary" />
                     </div>
                     <div className="w-full">
-                      <h3 className="text-lg sm:text-xl font-orbitron font-semibold text-foreground mb-3">
+      <h3 className="text-base sm:text-lg font-orbitron font-semibold text-foreground mb-3 break-words">
                         {feature.title}
                       </h3>
                       <p className="text-sm sm:text-base text-muted-foreground leading-relaxed">

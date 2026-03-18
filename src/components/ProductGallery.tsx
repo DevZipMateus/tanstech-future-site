@@ -112,6 +112,12 @@ const ProductGallery = () => {
     image: "/assets/products/triciclo-family-novo.jpg",
     category: "grande",
     specifications: ["MOTOR: 650W", "BATERIA: CHUMBO 48V 20AH", "RECARGA: 6 A 8 HORAS", "QUADRO: AÇO", "AUTONOMIA: 40 A 45KM", "VELOCIDADE MÁXIMA: 32KM/H", "FREIOS: TAMBOR (DIANTEIRO E TRASEIROS)", "RODAS: ARO 10\"", "CAPACIDADE DE CARGA: ATÉ 185KG", "PAINEL DIGITAL COM NÍVEL DE BATERIA", "POSSUI ALARME"]
+  }, {
+    id: 30,
+    name: "AUTOPROPELIDO MODELO S3 PLUS",
+    image: "/assets/products/scooter-s3-plus.jpg",
+    category: "medio",
+    specifications: ["MOTOR: 1000W 60V", "BATERIA LÍTIO: 25AH", "MARCHA RÉ", "PAINEL: NFC", "PORTA OBJETOS", "SUSPENSÃO: HIDRÁULICA", "FREIOS: HIDRÁULICOS", "VELOCIDADE: 32KM/H", "AUTONOMIA: 60KM", "BAÚ INCLUSO", "CORES: VERMELHO, PRETO, CINZA, BRANCO, ROXO"]
   }];
 
   const filterProducts = (category: string) => {
